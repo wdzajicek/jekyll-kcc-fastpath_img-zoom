@@ -1,4 +1,4 @@
-# General Apple things to ignore
+### General Apple things to ignore ###
 .DS_Store
 .AppleDouble
 .LSOverride
@@ -6,7 +6,7 @@
 # Thumbnails
 ._*
 
-# Files that might appear in the root of a volume
+### Files that might appear in the root of a volume ###
 .DocumentRevisions-V100
 .fseventsd
 .Spotlight-V100
@@ -15,13 +15,14 @@
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
 
-# Directories potentially created on remote AFP share
+### Directories potentially created on remote AFP share ###
 .AppleDB
 .AppleDesktop
 Network Trash Folder
 Temporary Items
 .apdisk
 
+### Jekyll stuffs to ignore ###
 _site/
 _site/*
 .sass-cache/
@@ -31,10 +32,15 @@ _site/*
 .jekyll-cache/*
 .jekyll-metadata/*
 
-# Ignore the Node "thingy"
+### Ignore the Node "thingy" ###
 node_modules
 node_modules/
 node_modules/*
 
-# Ignore the Gulp "thingy"
+### Ignore the Gulp "thingy" ###
 package-lock.json
+
+### Ignore full-size working adobe graphics documents for used images in site ###
+adobe
+adobe/
+adobe/*
