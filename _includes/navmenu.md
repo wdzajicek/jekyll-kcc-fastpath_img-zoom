@@ -1,0 +1,45 @@
+<section>
+      <input class="full-chk" id="full-menu" type="checkbox" />
+
+<label class="full-cntr" for="full-menu">
+  <span class="full-span"></span>
+  <span class="full-span"></span>
+  <span class="full-span"></span>
+</label>
+
+
+<nav class="full-nav noshow">
+  <ul class="full-nav-ul">
+    <section class="full-nav-cntr">
+      <li>
+        <p class="full-nav-p">
+          <a class="full-nav-a" href="http://apply.kcc.edu" target="_blank" rel="noopener">
+            <span class="full-nav-hltd">Apply now</span>
+          </a>
+        </p>
+      </li>
+      <li>
+        <p class="full-nav-p">
+          <a class="full-nav-a" href="details.html">
+            <span class="full-nav-hltd">More details</span>
+          </a>
+        </p>
+      </li>
+      <li>
+        <p class="full-nav-p">
+          <a class="full-nav-a" href="why-fastpath.html">
+            <span class="full-nav-hltd">Why Fast Path?</span>
+          </a>
+        </p>
+      </li>
+      <li>
+        <p class="full-nav-p">
+          <a class="full-nav-a" href="http://www.kcc.edu/future/start/Pages/vip.aspx" target="_blank" rel="noopener">
+            <span class="full-nav-hltd">Schedule a campus tour</span>
+          </a>
+        </p>
+      </li>
+    </section>
+  </ul>
+</nav>
+</section>
