@@ -1,13 +1,10 @@
 <section>
-      <input class="full-chk" id="full-menu" type="checkbox" />
-
+  <input class="full-chk" id="full-menu" type="checkbox" />
 <label class="full-cntr" for="full-menu">
   <span class="full-span"></span>
   <span class="full-span"></span>
   <span class="full-span"></span>
 </label>
-
-
 <nav class="full-nav noshow">
   <ul class="full-nav-ul">
     <section class="full-nav-cntr">
