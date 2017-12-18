@@ -713,12 +713,27 @@ h1 {
 .noshow {
   visibility: hidden; }
 
-.hero {
-  background-image: url(/img/hero_banner_tall_mobile.jpg);
+.big-banner {
+  height: 100vh;
+  max-width: 100%;
+  position: fixed;
+  width: 100%; }
+
+.top-banner {
+  background-image: url(/img/top-banner-mobile_small.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
-  height: 300px; }
+  height: 119px;
+  z-index: 9999; }
+
+.hero {
+  background-image: url(/img/hero_mobile_small.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 240px;
+  margin-top: -20px;
+  z-index: 9998; }
 
 body {
-  background: white; }
+  background-color: white; }
