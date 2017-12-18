@@ -713,5 +713,12 @@ h1 {
 .noshow {
   visibility: hidden; }
 
+.hero {
+  background-image: url(/img/hero_banner_tall_mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 300px; }
+
 body {
   background: white; }

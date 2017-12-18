@@ -1,8 +1,8 @@
-<header id="header" class="top-banner">
-  <div class="row">
-    <div class=" col-lg-12"></div>
+<header class="big-banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 top-banner"></div>
+      <div class="col-xs-12 hero"></div>
+    </div>
   </div>
 </header>
-
-<section class="hero">
-</section>
