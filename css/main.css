@@ -724,7 +724,7 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   height: 119px;
-  z-index: 9999; }
+  z-index: 9997; }
 
 .hero {
   background-image: url(/img/hero_mobile_small.jpg);
@@ -733,7 +733,7 @@ h1 {
   background-position: top;
   height: 240px;
   margin-top: -20px;
-  z-index: 9998; }
+  z-index: 9996; }
 
 body {
   background-color: white; }
