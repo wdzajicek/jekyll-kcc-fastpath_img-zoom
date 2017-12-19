@@ -1,3 +1,4 @@
+
 <svg version="1.1" id="Layer_4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="4000px" height="2163px" viewBox="0 0 4000 2162.715" enable-background="new 0 0 4000 2162.715" xml:space="preserve" class="wave">
   <g>
     <polygon fill="#FFFFFF" points="3996.801,176.36 2784.16,487.465 1290.719,166.799 3.2,448.106 3.2,2118.137 3996.801,2118.137"/>

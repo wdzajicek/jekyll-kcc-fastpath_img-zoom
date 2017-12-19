@@ -636,7 +636,7 @@ h1 {
   right: 0%;
   background-color: #148caa;
   opacity: .95 !important;
-  z-index: -1;
+  z-index: 99999;
   transition: opacity 0.3s ease-out 0s, z-index 0s ease-out 0.3s; }
 
 .full-chk:checked ~ .full-nav {
@@ -734,6 +734,13 @@ h1 {
   height: 240px;
   margin-top: -20px;
   z-index: 9996; }
+
+.wave {
+  width: 100%;
+  height: auto;
+  z-index: 9998;
+  margin-top: 300px;
+  position: relative; }
 
 body {
   background-color: white; }
