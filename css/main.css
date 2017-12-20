@@ -532,8 +532,8 @@ template {
 [hidden] {
   display: none; }
 
-h1 {
-  color: #0F0; }
+h1.bgcolor {
+  color: #FFFFFF; }
 
 /* don't display the checkbox */
 .full-chk {
