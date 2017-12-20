@@ -2,7 +2,8 @@
 layout: default
 title: Kankakee Community College Fast Path
 ---
-# Earn a transfer degree in 2 years!
+# Earn&#160;a&#160;transfer&#160;degree in&#160;2&#160;years!
+{: .bgcolor}
 
 ## We’ve taken the guesswork out of college so you can focus on being successful.
 

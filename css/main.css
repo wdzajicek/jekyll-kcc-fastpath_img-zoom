@@ -533,7 +533,10 @@ template {
   display: none; }
 
 h1.bgcolor {
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  background-color: #148ba9;
+  padding-top: 10px;
+  padding-bottom: 10px; }
 
 /* don't display the checkbox */
 .full-chk {
