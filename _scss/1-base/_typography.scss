@@ -1,6 +1,29 @@
 h1.bgcolor {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.2em;
+  font-weight: 600;
+  letter-spacing: 1px;
   color: $whitefont;
   background-color: $fp-emerald;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+h2.emerald {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: $fp-emerald;
+  line-height: 1.2;
+}
+
+p.home {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  font-weight: 600;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 1.6;
+  text-align: left;
 }

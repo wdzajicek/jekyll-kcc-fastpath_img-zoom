@@ -533,10 +533,31 @@ template {
   display: none; }
 
 h1.bgcolor {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.2em;
+  font-weight: 600;
+  letter-spacing: 1px;
   color: #FFFFFF;
   background-color: #148ba9;
   padding-top: 10px;
   padding-bottom: 10px; }
+
+h2.emerald {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #148ba9;
+  line-height: 1.2; }
+
+p.home {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  font-weight: 600;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 1.6;
+  text-align: left; }
 
 /* don't display the checkbox */
 .full-chk {
@@ -748,7 +769,8 @@ h1.bgcolor {
 .content-marg {
   margin-top: -90px;
   z-index: 9998;
-  position: relative; }
+  position: relative;
+  background-color: white; }
 
 body {
   background-color: white; }
