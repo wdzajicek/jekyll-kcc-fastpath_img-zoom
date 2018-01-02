@@ -576,7 +576,7 @@ p.home {
   border-radius: 50%;
   background-color: #ffffff;
   box-shadow: 0px 1px 2px 0px #444444;
-  z-index: 300;
+  z-index: 9999;
   cursor: pointer; }
 
 @media screen and (max-width: 480px) {
@@ -661,7 +661,7 @@ p.home {
   right: 0%;
   background-color: #148caa;
   opacity: .95 !important;
-  z-index: 99999;
+  z-index: 9997;
   transition: opacity 0.3s ease-out 0s, z-index 0s ease-out 0.3s; }
 
 .full-chk:checked ~ .full-nav {
@@ -738,6 +738,9 @@ p.home {
 .noshow {
   visibility: hidden; }
 
+.site-nav {
+  z-index: 9998; }
+
 .big-banner {
   height: auto;
   position: fixed;
@@ -748,7 +751,7 @@ p.home {
   background-repeat: no-repeat;
   background-size: contain;
   height: 119px;
-  z-index: 9996; }
+  z-index: 9994; }
 
 .hero {
   background-image: url(/img/hero_mobile_small.jpg);
@@ -757,23 +760,23 @@ p.home {
   background-position: top;
   height: 240px;
   margin-top: -20px;
-  z-index: 9995; }
+  z-index: 9993; }
 
 .wave {
   width: 100%;
   height: auto;
-  z-index: 9997;
+  z-index: 9995;
   margin-top: 300px;
   position: relative; }
 
 .content-marg {
   margin-top: -90px;
-  z-index: 9998;
+  z-index: 9996;
   position: relative;
   background-color: white; }
 
 .back-white {
-  background-color: white; }
+  background-color: white !important; }
 
 .container {
   margin: 0;
