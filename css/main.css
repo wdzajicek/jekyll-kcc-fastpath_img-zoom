@@ -596,6 +596,16 @@ p.home {
   color: #148ba9;
   line-height: 1.2; }
 
+.get-started-h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.7em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: white;
+  line-height: 1.2;
+  margin-bottom: 40px;
+  margin-top: 60px; }
+
 /* don't display the checkbox */
 .full-chk {
   display: none; }
@@ -883,7 +893,122 @@ body {
   background-size: cover; }
 
 .engagement-card {
-  background-color: white; }
+  background-color: white;
+  width: 80%;
+  margin-bottom: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20px;
+  border-style: solid;
+  border-width: thin;
+  border-color: white; }
+
+.nav-social {
+  float: left;
+  list-style-type: none;
+  margin-left: 9px;
+  padding-left: 0; }
+
+.nav-social li {
+  float: left;
+  height: 32px;
+  margin-left: 5px;
+  width: 32px; }
+
+.nav-social li:first-child {
+  margin-left: 0; }
+
+.nav-social a {
+  display: block;
+  height: 100%;
+  text-indent: -9999px;
+  width: 100%; }
+
+.nav-social a:hover {
+  -webkit-filter: drop-shadow 2px 2px 4px #FFFFFF;
+          filter: drop-shadow 2px 2px 4px #FFFFFF; }
+
+.nav-social a[href*='facebook'] {
+  background: url(../img/facebook_64.png);
+  background-size: cover; }
+
+.nav-social a[href*='pinterest'] {
+  background: url("../img/pinterest_64.png");
+  background-size: cover; }
+
+.nav-social a[href*='twitter'] {
+  background: url("../img/twitter_64.png");
+  background-size: cover; }
+
+.nav-social a[href*='youtube'] {
+  background: url("../img/youtube_64.png");
+  background-size: cover; }
+
+.nav-social a[href*='listfeed'] {
+  background: url("../img/rss_64.png");
+  background-size: cover; }
+
+.nav-social a[href*='flickr'] {
+  background: url("../img/flickr_64.png");
+  background-size: cover; }
+
+.nav-social a[href*='linkedin'] {
+  background: url("../img/linkedin_64.png");
+  background-size: cover; }
+
+.nav-social a[href*='instagram'] {
+  background: url("../img/instagram_64.png");
+  background-size: cover; }
+
+.nav-social a[href*='itunes'] {
+  display: none; }
+
+.radio ul.radio-station-logos {
+  float: left;
+  margin-left: 20px; }
+
+.radio .nav-social {
+  display: none; }
+
+.radio-station-logos {
+  display: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+.radio-station-logos li {
+  display: inline; }
+
+.radio-station-logos a {
+  text-decoration: none; }
+
+.radio-station-logos img {
+  border-width: 0;
+  vertical-align: middle; }
+
+.legal {
+  float: left;
+  margin-left: 10px;
+  width: 330px; }
+
+.nav-icons-logos a[href='http://www.nsf.gov/ate'] {
+  display: none; }
+
+.global-footer {
+  margin-top: 40px;
+  background-color: #0f3b63; }
+
+.footer-logo {
+  position: relative;
+  left: -24px;
+  display: block;
+  height: 25px;
+  width: 300px;
+  margin: 10px 0 0 20px;
+  background-image: url(../img/kankakee-community-college-word-logo.svg);
+  background-size: cover;
+  text-indent: -9999px;
+  overflow: hidden; }
 
 body {
   background-color: white;
