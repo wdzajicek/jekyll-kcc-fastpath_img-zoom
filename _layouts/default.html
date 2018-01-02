@@ -20,27 +20,27 @@
       <!-- Hamburger navigation and full screen menu -->
       {% include navmenu.html %}
       <div class="container-fluid">
-      <!-- Top banner and hero banner -->
-      {% include index-banner.html %}
+        <!-- Top banner and hero banner -->
+        {% include index-banner.html %}
 
-      <!-- Wave SVG Graphic -->
-      <section>
-        {% include wave.svg %}
-      </section>
+        <!-- Wave SVG Graphic -->
+        <section>
+          {% include wave.svg %}
+        </section>
 
-      <section class="content-marg">
-        {{ content }}
-      </section>
+        <section class="content-marg">
+          {{ content }}
+        </section>
 
-      <section class="back-white">
-      <!-- Calls to action with icon buttons -->
-        <div class="row back-white">
-          <div class="col-lg-2"></div>
-          {% include apply.html %}
-          {% include more.html %}
-          <div class="col-lg-2"></div>
-        </div>
-      </section>
+        <section class="back-white">
+        <!-- Calls to action with icon buttons -->
+          <div class="row back-white">
+            <div class="col-lg-2"></div>
+            {% include apply.html %}
+            {% include more.html %}
+            <div class="col-lg-2"></div>
+          </div>
+        </section>
 
     </div>
 
@@ -58,6 +58,9 @@
           $(document).ready(function(){
             $('label.full-cntr').click( function(e) {
               $('.full-nav').toggleClass("noshow");
+            });
+            $(window).scroll(function(){
+              $(".big-banner ").css("opacity", 1 - $(window).scrollTop() / 300);
             });
           });
         </script>
