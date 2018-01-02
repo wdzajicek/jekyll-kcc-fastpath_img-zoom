@@ -27,3 +27,30 @@ p.home {
   line-height: 1.6;
   text-align: left;
 }
+
+.intro2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.7em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: $fp-emerald;
+  line-height: 1.2;
+}
+
+.intro-p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: black;
+  line-height: 1.2;
+}
+
+.gold {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: $fp-orange;
+  line-height: 1.2;
+}
