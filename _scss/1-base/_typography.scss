@@ -73,9 +73,9 @@ p.home {
 
 .get-started-h1 {
   font-family: 'Roboto', sans-serif;
-  font-size: 2.4em;
+  font-size: 2.3em;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   color: white;
   line-height: 1.2;
   margin-bottom: 40px;
@@ -97,4 +97,21 @@ a.nowrap:visited {
 
 a.nowrap {
   color: $accent-blue-bright;
+}
+
+.engagement-card-headline {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.1em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: black;
+  line-height: 1.2;
+}
+
+.card-p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4em;
+  font-weight: 400;
+  color: black;
+  line-height: 1.2;
 }
