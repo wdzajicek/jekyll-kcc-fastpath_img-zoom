@@ -805,7 +805,11 @@ body {
   width: 100%;
   overflow-x: hidden; }
 
-* {
+section,
+div {
   max-width: 100%;
   width: 100%;
   overflow-x: hidden; }
+
+.btn-primary:hover {
+  background-color: #003e73; }
