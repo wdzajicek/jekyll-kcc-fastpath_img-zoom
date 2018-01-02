@@ -661,12 +661,12 @@ p.home {
   right: 0%;
   background-color: #148caa;
   opacity: .95 !important;
-  z-index: 9997;
+  z-index: 9996;
   transition: opacity 0.3s ease-out 0s, z-index 0s ease-out 0.3s; }
 
 .full-chk:checked ~ .full-nav {
   opacity: 1;
-  z-index: 200;
+  z-index: 9997;
   transition: opacity 0.3s ease-out 0s; }
 
 /* unordered list inside nav element or .full-nav */
@@ -765,7 +765,7 @@ p.home {
 .wave {
   width: 100%;
   height: auto;
-  z-index: 9995;
+  z-index: 9994;
   margin-top: 300px;
   position: relative; }
 
