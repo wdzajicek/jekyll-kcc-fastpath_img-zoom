@@ -57,8 +57,9 @@ p.home {
 
 // glyphicon display and layout styles
 .glyph-big {
-  font-size: 6em;
-  right: -80px;
+  font-size: 4em;
+  margin-left: -40px;
+  top: 60px;
 }
 
 .heading-margin {
@@ -72,11 +73,28 @@ p.home {
 
 .get-started-h1 {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.7em;
+  font-size: 2.4em;
   font-weight: 600;
   letter-spacing: 1px;
   color: white;
   line-height: 1.2;
   margin-bottom: 40px;
   margin-top: 60px;
+}
+
+.footer-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+  line-height: 1.2;
+}
+
+a.nowrap:visited {
+  color: $light-visited;
+}
+
+a.nowrap {
+  color: $accent-blue-bright;
 }
