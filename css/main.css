@@ -1,6 +1,7 @@
 /*****************************************************************************/
 /*
 /* Common
+/* This calls for a comment
 /*
 /*****************************************************************************/
 /* Global Reset */
@@ -606,8 +607,8 @@ p.home {
           transform: rotate(0deg);
   -webkit-transform-origin: left center;
           transform-origin: left center;
-  transition: background-color 0.3s ease-out 0s, opacity 0.3s ease-out 0.1s, -webkit-transform 0.2s ease-out 0s, width 0.2s ease-out 0s, left 0.2s ease-out 0s;
-  transition: background-color 0.3s ease-out 0s, opacity 0.3s ease-out 0.1s, transform 0.2s ease-out 0s, width 0.2s ease-out 0s, left 0.2s ease-out 0s; }
+  transition: background-color 0.3s ease-out 0s, opacity 0.3s ease-out 0.1s, -webkit-transform 0.2s ease-out 0s, width 0.2s ease-out 0s, left 0.2s ease-out 0s;
+  transition: background-color 0.3s ease-out 0s, opacity 0.3s ease-out 0.1s, transform 0.2s ease-out 0s, width 0.2s ease-out 0s, left 0.2s ease-out 0s; }
 
 @media screen and (max-width: 480px) {
   .full-span {
@@ -661,7 +662,7 @@ p.home {
   background-color: #148caa;
   opacity: .95 !important;
   z-index: 99999;
-  transition: opacity 0.3s ease-out 0s, z-index 0s ease-out 0.3s; }
+  transition: opacity 0.3s ease-out 0s, z-index 0s ease-out 0.3s; }
 
 .full-chk:checked ~ .full-nav {
   opacity: 1;
@@ -739,21 +740,20 @@ p.home {
 
 .big-banner {
   height: auto;
-  max-width: 100%;
   position: fixed;
   width: 100%; }
 
 .top-banner {
   background-image: url(/img/top-banner-mobile_small.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   height: 119px;
   z-index: 9996; }
 
 .hero {
   background-image: url(/img/hero_mobile_small.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: top;
   height: 240px;
   margin-top: -20px;
@@ -801,4 +801,11 @@ body {
   overflow-x: hidden; }
 
 body {
-  background-color: white; }
+  background-color: white;
+  width: 100%;
+  overflow-x: hidden; }
+
+* {
+  max-width: 100%;
+  width: 100%;
+  overflow-x: hidden; }
