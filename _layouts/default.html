@@ -37,6 +37,12 @@
         <!-- Top banner and hero banner -->
         {% include index-banner.html %}
 
+        <!-- Down arrow section -->
+
+        <section class="down">
+          {% include down.svg %}
+        </section>
+
         <!-- Wave SVG Graphic -->
         <section>
           {% include wave.svg %}
@@ -81,6 +87,8 @@
         <!-- Jquery to resolve menu visibility when closed. Animation of down arrows too. -->
         <script type="text/javascript">
           $(document).ready(function(){
+            <!-- arrow slide down at page load -->
+       	    $(".arrow").delay("fast").slideDown(1000);
             $('label.full-cntr').click( function(e) {
               $('.full-nav').toggleClass("noshow");
             });
