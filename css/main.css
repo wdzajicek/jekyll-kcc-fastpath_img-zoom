@@ -588,6 +588,14 @@ p.home {
   font-size: 6em;
   right: -80px; }
 
+.heading-margin {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.7em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #148ba9;
+  line-height: 1.2; }
+
 /* don't display the checkbox */
 .full-chk {
   display: none; }
@@ -844,6 +852,23 @@ body {
   margin-top: -80px;
   margin-left: -30px;
   margin-bottom: -140px; }
+
+.phone {
+  margin-left: -80px;
+  margin-top: -100px;
+  width: 40%; }
+
+.questions-pos {
+  margin-bottom: -40px;
+  margin-top: -80px; }
+
+.contact-intro {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: black;
+  line-height: 1.2; }
 
 body {
   background-color: white;
