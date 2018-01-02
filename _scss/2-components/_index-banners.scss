@@ -1,6 +1,5 @@
 .big-banner {
   height: auto;
-  max-width: 100%;
   position: fixed;
   width: 100%;
 }
@@ -8,7 +7,7 @@
 .top-banner {
   background-image: url(/img/top-banner-mobile_small.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   height: 119px;
   z-index: 9996;
 }
@@ -16,7 +15,7 @@
 .hero {
   background-image: url(/img/hero_mobile_small.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: top;
   height: 240px;
   margin-top: -20px;
