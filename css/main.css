@@ -584,6 +584,10 @@ p.home {
   color: #eeab34;
   line-height: 1.2; }
 
+.glyph-big {
+  font-size: 6em;
+  right: -80px; }
+
 /* don't display the checkbox */
 .full-chk {
   display: none; }
@@ -826,6 +830,20 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden; }
+
+.apply-pos {
+  margin-top: -80px;
+  margin-bottom: -40px;
+  margin-left: -40px;
+  overflow-y: hidden; }
+
+.no-scroll {
+  overflow-y: hidden; }
+
+.more-pos {
+  margin-top: -80px;
+  margin-left: -30px;
+  margin-bottom: -140px; }
 
 body {
   background-color: white;
