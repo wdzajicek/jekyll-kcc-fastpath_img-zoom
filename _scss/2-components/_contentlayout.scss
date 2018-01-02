@@ -1,12 +1,12 @@
 .content-marg {
   margin-top: -90px;
-  z-index: 9998;
+  z-index: 9996;
   position: relative;
   background-color: $bgcolor;
 }
 
 .back-white {
-  background-color: $bgcolor;
+  background-color: $bgcolor !important;
 }
 
 .container {
