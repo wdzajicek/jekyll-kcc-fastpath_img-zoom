@@ -1098,10 +1098,30 @@ body {
   display: none; }
 
 .infographic {
-  width: 80%; }
+  width: 80%;
+  margin-bottom: 40px; }
 
 .smaller-icon2 {
   width: 60%; }
+
+.tight-marg {
+  margin-top: -20px;
+  margin-bottom: -40px;
+  width: 55%; }
+
+.arrow {
+  z-index: 46;
+  position: absolute;
+  left: 40%;
+  margin-top: 280px;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: transparent !important;
+  display: none; }
 
 body {
   background-color: white;

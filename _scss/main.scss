@@ -4,18 +4,19 @@
 @import "0-tools/reset";
 @import "0-tools/normalize";
 @import "1-base/typography";
-@import "2-components/navmenu";
-@import "2-components/index-banners";
-@import "2-components/wave";
-@import "2-components/contentlayout";
-@import "2-components/apply";
-@import "2-components/more";
-@import "2-components/questions";
-@import "2-components/bottom-cards";
-@import "2-components/footer";
-@import "2-components/down";
-@import "2-components/infographic";
-@import "2-components/details-icons";
+@import "2-global-components/navmenu";
+@import "3-default-components/index-banners";
+@import "3-default-components/wave";
+@import "3-default-components/contentlayout";
+@import "2-global-components/apply";
+@import "2-global-components/more";
+@import "2-global-components/questions";
+@import "2-global-components/bottom-cards";
+@import "2-global-components/footer";
+@import "3-default-components/down";
+@import "4-details-components/infographic";
+@import "4-details-components/details-icons";
+@import "4-details-components/down2";
 
 body {
   background-color: $bgcolor;
@@ -30,4 +31,4 @@ div {
   overflow-x: hidden;
 }
 
-@import "2-components/bootstrap-overrides.scss";
+@import "2-global-components/bootstrap-overrides.scss";
