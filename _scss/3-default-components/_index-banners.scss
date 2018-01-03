@@ -27,6 +27,21 @@
   }
 }
 
+@media screen and (min-width: 415px) and (max-width: 480px) {
+  .top-banner {
+    background-image: url(/img/top-banner-mobile.png);
+    background-size: contain;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .top-banner {
+    background-image: url(/img/top-banner-tablet.png);
+    background-size: contain;
+    height: 320px;
+  }
+}
+
 .hero {
   background-image: url(/img/hero_mobile_small.jpg);
   background-repeat: no-repeat;
@@ -65,5 +80,14 @@
     background-image: url(/img/hero_mobile.jpg);
     background-size: contain;
     height: 310px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .hero {
+    background-image: url(/img/hero_tablet.jpg);
+    background-size: cover;
+    height: 560px;
+    margin-top: -120px;
   }
 }

@@ -913,6 +913,17 @@ a.nowrap {
     background-size: contain;
     height: 160px; } }
 
+@media screen and (min-width: 415px) and (max-width: 480px) {
+  .top-banner {
+    background-image: url(/img/top-banner-mobile.png);
+    background-size: contain; } }
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .top-banner {
+    background-image: url(/img/top-banner-tablet.png);
+    background-size: contain;
+    height: 320px; } }
+
 .hero {
   background-image: url(/img/hero_mobile_small.jpg);
   background-repeat: no-repeat;
@@ -945,6 +956,13 @@ a.nowrap {
     background-size: contain;
     height: 310px; } }
 
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .hero {
+    background-image: url(/img/hero_tablet.jpg);
+    background-size: cover;
+    height: 560px;
+    margin-top: -120px; } }
+
 .wave {
   width: 100%;
   height: auto;
@@ -960,14 +978,14 @@ a.nowrap {
   .wave {
     margin-top: 340px; } }
 
-@media screen and (min-width: 412px) and (max-width: 413px) {
+@media screen and (min-width: 412px) and (max-width: 480px) {
   .wave {
     margin-top: 400px;
     margin-bottom: -30px; } }
 
-@media screen and (min-width: 414px) and (max-width: 415px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
   .wave {
-    margin-top: 400px;
+    margin-top: 670px;
     margin-bottom: -30px; } }
 
 .content-marg {
@@ -975,6 +993,10 @@ a.nowrap {
   z-index: 9995;
   position: relative;
   background-color: white; }
+
+@media screen and (min-width: 768px) {
+  .content-marg {
+    margin-top: -180px; } }
 
 .back-white {
   background-color: white !important; }
@@ -1186,6 +1208,13 @@ body {
   height: 50px;
   background-color: transparent !important;
   display: none; }
+
+@media screen and (min-width: 768px) {
+  .arrow {
+    left: 43%;
+    width: 100px;
+    height: 100px;
+    margin-top: 570px; } }
 
 .infographic {
   width: 80%;

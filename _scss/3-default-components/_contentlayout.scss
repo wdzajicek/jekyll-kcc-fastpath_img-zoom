@@ -5,6 +5,12 @@
   background-color: $bgcolor;
 }
 
+@media screen and (min-width: 768px) {
+  .content-marg {
+    margin-top: -180px;
+  }
+}
+
 .back-white {
   background-color: $bgcolor !important;
 }
