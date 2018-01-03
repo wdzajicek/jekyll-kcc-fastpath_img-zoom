@@ -55,12 +55,12 @@
         <section class="back-white">
         <!-- Calls to action with icon buttons -->
           <div class="row back-white">
-            <div class="col-lg-2"></div>
+            <div class="col-lg-2 back-white"></div>
             {% include apply.html %}
             {% include more.html %}
-            <div class="col-lg-2"></div>
+            <div class="col-lg-2 back-white"></div>
           </div>
-          <div class="row">
+          <div class="row back-white">
             {% include questions.html %}
           </div>
         </section>
@@ -93,7 +93,10 @@
               $('.full-nav').toggleClass("noshow");
             });
             $(window).scroll(function(){
-              $(".big-banner ").css("opacity", 1 - $(window).scrollTop() / 300);
+              var pixelstop = $(window).scrollTop();
+
+                $(".big-banner ").css("opacity", 1 - pixelstop / 300);
+
             });
           });
         </script>
