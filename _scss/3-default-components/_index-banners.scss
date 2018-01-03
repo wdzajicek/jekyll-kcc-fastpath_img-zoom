@@ -6,9 +6,11 @@
 }
 
 .top-banner {
+  background-color: #eeefef;
   background-image: url(/img/top-banner-mobile_small.png);
   background-repeat: no-repeat;
   background-size: contain;
+  background-position-x: center;
   height: 119px;
   z-index: 9994;
 }
@@ -46,7 +48,7 @@
   .top-banner {
     background-image: url(/img/top-banner-tablet.png);
     background-size: contain;
-    height: 360px;
+    height: 250px;
   }
 }
 
@@ -54,7 +56,7 @@
   .top-banner {
     background-image: url(/img/top-banner-desktop.png);
     background-size: contain;
-    height: 360px;
+    height: 220px;
   }
 }
 
@@ -104,7 +106,7 @@
     background-image: url(/img/hero_tablet.jpg);
     background-size: cover;
     height: 560px;
-    margin-top: -120px;
+    margin-top: -50px;
   }
 }
 
@@ -113,6 +115,15 @@
     background-image: url(/img/hero_tablet.jpg);
     background-size: cover;
     height: 750px;
+    margin-top: -90px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .hero {
+    background-image: url(/img/hero_desktop.jpg);
+    background-size: cover;
+    height: 980px;
     margin-top: -90px;
   }
 }
