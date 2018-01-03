@@ -5,3 +5,29 @@
   margin-top: 300px;
   position: relative;
 }
+
+@media screen and (min-width: 360px) and (max-width: 374px) {
+  .wave {
+    margin-top: 330px
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 411px) {
+  .wave {
+    margin-top: 340px
+  }
+}
+
+@media screen and (min-width: 412px) and (max-width: 413px) {
+  .wave {
+    margin-top: 400px;
+    margin-bottom: -30px;
+  }
+}
+
+@media screen and (min-width: 414px) and (max-width: 415px) {
+  .wave {
+    margin-top: 400px;
+    margin-bottom: -30px;
+  }
+}

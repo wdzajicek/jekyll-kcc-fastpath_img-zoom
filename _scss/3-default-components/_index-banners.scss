@@ -19,6 +19,14 @@
   }
 }
 
+@media screen and (min-width: 412px) and (max-width: 414px) {
+  .top-banner {
+    background-image: url(/img/top-banner-mobile.png);
+    background-size: contain;
+    height: 160px
+  }
+}
+
 .hero {
   background-image: url(/img/hero_mobile_small.jpg);
   background-repeat: no-repeat;
@@ -29,8 +37,33 @@
   z-index: 9993;
 }
 
-@media screen and (min-width: 360px) and (max-width: 375px) {
+@media screen and (min-width: 360px) and (max-width: 374px) {
   .hero {
     background-size: cover;
+    height: 270px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 411px) {
+  .hero {
+    background-image: url(/img/hero_mobile.jpg);
+    background-size: cover;
+    height: 280px;
+  }
+}
+
+@media screen and (min-width: 412px) and (max-width: 413px) {
+  .hero {
+    background-image: url(/img/hero_mobile.jpg);
+    background-size: cover;
+    height: 310px;
+  }
+}
+
+@media screen and (min-width: 414px) and (max-width: 480px) {
+  .hero {
+    background-image: url(/img/hero_mobile.jpg);
+    background-size: contain;
+    height: 310px;
   }
 }

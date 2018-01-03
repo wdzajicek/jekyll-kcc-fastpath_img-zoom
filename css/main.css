@@ -543,6 +543,10 @@ h1.bgcolor {
   padding-top: 10px;
   padding-bottom: 10px; }
 
+@media screen and (min-width: 412px) and (max-width: 413px) {
+  h1.bgcolor {
+    margin-bottom: 30px; } }
+
 h2.emerald {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
@@ -903,6 +907,12 @@ a.nowrap {
   .top-banner {
     background-size: cover; } }
 
+@media screen and (min-width: 412px) and (max-width: 414px) {
+  .top-banner {
+    background-image: url(/img/top-banner-mobile.png);
+    background-size: contain;
+    height: 160px; } }
+
 .hero {
   background-image: url(/img/hero_mobile_small.jpg);
   background-repeat: no-repeat;
@@ -912,9 +922,28 @@ a.nowrap {
   margin-top: -20px;
   z-index: 9993; }
 
-@media screen and (min-width: 360px) and (max-width: 375px) {
+@media screen and (min-width: 360px) and (max-width: 374px) {
   .hero {
-    background-size: cover; } }
+    background-size: cover;
+    height: 270px; } }
+
+@media screen and (min-width: 375px) and (max-width: 411px) {
+  .hero {
+    background-image: url(/img/hero_mobile.jpg);
+    background-size: cover;
+    height: 280px; } }
+
+@media screen and (min-width: 412px) and (max-width: 413px) {
+  .hero {
+    background-image: url(/img/hero_mobile.jpg);
+    background-size: cover;
+    height: 310px; } }
+
+@media screen and (min-width: 414px) and (max-width: 480px) {
+  .hero {
+    background-image: url(/img/hero_mobile.jpg);
+    background-size: contain;
+    height: 310px; } }
 
 .wave {
   width: 100%;
@@ -922,6 +951,24 @@ a.nowrap {
   z-index: 9994;
   margin-top: 300px;
   position: relative; }
+
+@media screen and (min-width: 360px) and (max-width: 374px) {
+  .wave {
+    margin-top: 330px; } }
+
+@media screen and (min-width: 375px) and (max-width: 411px) {
+  .wave {
+    margin-top: 340px; } }
+
+@media screen and (min-width: 412px) and (max-width: 413px) {
+  .wave {
+    margin-top: 400px;
+    margin-bottom: -30px; } }
+
+@media screen and (min-width: 414px) and (max-width: 415px) {
+  .wave {
+    margin-top: 400px;
+    margin-bottom: -30px; } }
 
 .content-marg {
   margin-top: -90px;
