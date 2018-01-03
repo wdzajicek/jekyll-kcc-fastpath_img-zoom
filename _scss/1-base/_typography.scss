@@ -9,6 +9,12 @@ h1.bgcolor {
   padding-bottom: 10px;
 }
 
+@media screen and (min-width: 412px) and (max-width: 413px) {
+  h1.bgcolor {
+    margin-bottom: 30px;
+  }
+}
+
 h2.emerald {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
