@@ -5,11 +5,12 @@
   margin-left: -40px;
   overflow-y: hidden;
   width: 70%;
+  z-index: 9994;
 }
 
 @media screen and (min-width: 768px) {
   .apply-pos {
-    width: 60%;
+    width: 40%;
   }
 }
 

@@ -23,6 +23,12 @@
   width: 60%;
 }
 
+@media screen and (min-width: 768px) {
+  .questions-pos {
+    width: 40%;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .questions-pos {
     width: 40%;
