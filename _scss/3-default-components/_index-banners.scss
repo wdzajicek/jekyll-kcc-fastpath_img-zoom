@@ -13,6 +13,12 @@
   z-index: 9994;
 }
 
+@media screen and (min-width: 375px) and (max-width: 411px) {
+  .top-banner {
+    background-size: cover;
+  }
+}
+
 .hero {
   background-image: url(/img/hero_mobile_small.jpg);
   background-repeat: no-repeat;
@@ -23,7 +29,7 @@
   z-index: 9993;
 }
 
-@media screen and (min-width: 360px) and (max-width: 374px) {
+@media screen and (min-width: 360px) and (max-width: 375px) {
   .hero {
     background-size: cover;
   }
