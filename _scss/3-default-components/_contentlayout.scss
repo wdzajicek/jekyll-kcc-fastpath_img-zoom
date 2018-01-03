@@ -11,6 +11,18 @@
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .content-marg {
+    margin-top: -370px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .content-marg {
+    margin-top: -560px;
+  }
+}
+
 .back-white {
   background-color: $bgcolor !important;
 }
