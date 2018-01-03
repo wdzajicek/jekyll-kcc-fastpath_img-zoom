@@ -21,13 +21,17 @@
 @media screen and (min-width: 412px) and (max-width: 480px) {
   .wave {
     margin-top: 400px;
-    margin-bottom: -30px;
   }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .wave {
     margin-top: 670px;
-    margin-bottom: -30px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .wave {
+    margin-top: 900px;
   }
 }

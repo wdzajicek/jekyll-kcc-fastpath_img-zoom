@@ -7,6 +7,18 @@
   width: 70%;
 }
 
+@media screen and (min-width: 768px) {
+  .apply-pos {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .apply-pos {
+    width: 40%;
+  }
+}
+
 .no-scroll {
   overflow-y: hidden;
 }
