@@ -22,3 +22,9 @@
   margin-top: -20px;
   z-index: 9993;
 }
+
+@media screen and (min-width: 360px) and (max-width: 374px) {
+  .hero {
+    background-size: cover;
+  }
+}
