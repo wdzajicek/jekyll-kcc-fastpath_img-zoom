@@ -92,10 +92,23 @@
             $('label.full-cntr').click( function(e) {
               $('.full-nav').toggleClass("noshow");
             });
-            $(window).scroll(function(){
-              var pixelstop = $(window).scrollTop();
-                $(".big-banner ").css("opacity", 1 - pixelstop / 300);
-            });
+            if (window.screen.width <= 768) {
+// if the resolution is above 768px width, execute this:
+              $(window).scroll(function(){
+                var pixelstop = $(window).scrollTop();
+                  $(".big-banner ").css("opacity", 1 - pixelstop / 400);
+              });
+            } else if (window.screen.width <= 1024){
+              $(window).scroll(function(){
+                var pixelstop = $(window).scrollTop();
+                  $(".big-banner ").css("opacity", 1 - pixelstop / 700);
+              });
+            } else {
+              $(window).scroll(function(){
+                var pixelstop = $(window).scrollTop();
+                  $(".big-banner ").css("opacity", 1 - pixelstop / 1000);
+              });
+            }
           });
         </script>
 
