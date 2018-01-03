@@ -1,0 +1,24 @@
+<!-- SVG for the down arrows -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     width="50px" height="50px" viewBox="0 0 1024 1024" enable-background="new 0 0 1024 1024" xml:space="preserve" class="arrow2">
+  <defs>
+    <filter id="f1" x="0" y="0" width="200%" height="200%">
+      <feOffset result="offOut" in="SourceAlpha" dx="20" dy="40"/>
+      <feGaussianBlur result="blurOut" in="offOut" stdDeviation="40" />
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+    </filter>
+  </defs>
+<path fill="#008bab" d="M877.291,493.836c-9.665-16.741-31.069-22.477-47.811-12.811L544.825,645.37
+    c-13.586,7.216-25.179,12.133-35.398,12.133c-10.212,0-23.438-4.917-35.377-12.121L189.374,481.024
+    c-16.741-9.663-38.146-3.929-47.812,12.812c-9.665,16.74-3.928,38.146,12.812,47.811l334.266,192.988
+    c6.013,4.37,13.269,6.701,20.65,6.695c7.477,0.064,14.837-2.271,20.925-6.694L864.48,541.646
+    C881.222,531.981,886.957,510.576,877.291,493.836z" filter="url(#f1)"/>
+<path fill="#008bab" d="M877.291,313.837c-9.665-16.741-31.069-22.477-47.811-12.811L544.825,465.371
+    c-13.586,7.216-25.179,12.133-35.398,12.133c-10.212,0-23.438-4.917-35.377-12.121L189.374,301.025
+    c-16.741-9.663-38.146-3.929-47.812,12.812c-9.665,16.74-3.928,38.146,12.812,47.811l334.266,192.988
+    c6.013,4.371,13.269,6.701,20.65,6.695c7.477,0.064,14.837-2.27,20.925-6.693l334.266-192.99
+    C881.222,351.982,886.957,330.577,877.291,313.837z" filter="url(#f1)"/>
+</svg>
