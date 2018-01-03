@@ -92,21 +92,25 @@
             $('label.full-cntr').click( function(e) {
               $('.full-nav').toggleClass("noshow");
             });
-            if (window.screen.width <= 768) {
-// if the resolution is above 768px width, execute this:
+            if (window.screen.width <= 480) {
               $(window).scroll(function(){
                 var pixelstop = $(window).scrollTop();
                   $(".big-banner ").css("opacity", 1 - pixelstop / 400);
               });
+            } else if (window.screen.width <= 768) {
+              $(window).scroll(function(){
+                var pixelstop = $(window).scrollTop();
+                  $(".big-banner ").css("opacity", 1 - pixelstop / 500);
+              });
             } else if (window.screen.width <= 1024){
               $(window).scroll(function(){
                 var pixelstop = $(window).scrollTop();
-                  $(".big-banner ").css("opacity", 1 - pixelstop / 700);
+                  $(".big-banner ").css("opacity", 1 - pixelstop / 900);
               });
             } else {
               $(window).scroll(function(){
                 var pixelstop = $(window).scrollTop();
-                  $(".big-banner ").css("opacity", 1 - pixelstop / 1000);
+                  $(".big-banner ").css("opacity", 1 - pixelstop / 1200);
               });
             }
           });
