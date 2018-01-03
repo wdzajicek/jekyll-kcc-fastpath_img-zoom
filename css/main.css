@@ -897,9 +897,11 @@ a.nowrap {
   z-index: -1; }
 
 .top-banner {
+  background-color: #eeefef;
   background-image: url(/img/top-banner-mobile_small.png);
   background-repeat: no-repeat;
   background-size: contain;
+  background-position-x: center;
   height: 119px;
   z-index: 9994; }
 
@@ -928,13 +930,13 @@ a.nowrap {
   .top-banner {
     background-image: url(/img/top-banner-tablet.png);
     background-size: contain;
-    height: 360px; } }
+    height: 250px; } }
 
 @media screen and (min-width: 1025px) {
   .top-banner {
     background-image: url(/img/top-banner-desktop.png);
     background-size: contain;
-    height: 360px; } }
+    height: 220px; } }
 
 .hero {
   background-image: url(/img/hero_mobile_small.jpg);
@@ -973,13 +975,20 @@ a.nowrap {
     background-image: url(/img/hero_tablet.jpg);
     background-size: cover;
     height: 560px;
-    margin-top: -120px; } }
+    margin-top: -50px; } }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .hero {
     background-image: url(/img/hero_tablet.jpg);
     background-size: cover;
     height: 750px;
+    margin-top: -90px; } }
+
+@media screen and (min-width: 1025px) {
+  .hero {
+    background-image: url(/img/hero_desktop.jpg);
+    background-size: cover;
+    height: 980px;
     margin-top: -90px; } }
 
 .wave {
@@ -1006,6 +1015,10 @@ a.nowrap {
     margin-top: 670px; } }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+  .wave {
+    margin-top: 790px; } }
+
+@media screen and (min-width: 1025px) {
   .wave {
     margin-top: 900px; } }
 
@@ -1062,6 +1075,10 @@ body {
   .apply-pos {
     width: 40%; } }
 
+@media screen and (min-width: 1200px) {
+  .apply-pos {
+    width: 60%; } }
+
 .no-scroll {
   overflow-y: hidden; }
 
@@ -1079,6 +1096,10 @@ body {
   .more-pos {
     width: 40%; } }
 
+@media screen and (min-width: 1200px) {
+  .more-pos {
+    width: 60%; } }
+
 .phone {
   margin-left: -80px;
   margin-top: 40px;
@@ -1088,6 +1109,10 @@ body {
   .phone {
     width: 20%; } }
 
+@media screen and (min-width: 1200px) {
+  .phone {
+    width: 8%; } }
+
 .questions-pos {
   margin-bottom: -40px;
   margin-top: -40px;
@@ -1096,6 +1121,10 @@ body {
 @media screen and (min-width: 1024px) {
   .questions-pos {
     width: 40%; } }
+
+@media screen and (min-width: 1200px) {
+  .questions-pos {
+    width: 22%; } }
 
 .contact-intro {
   font-family: 'Roboto', sans-serif;
@@ -1134,6 +1163,12 @@ body {
     width: 40%;
     margin-left: 30%;
     margin-right: 30%; } }
+
+@media screen and (min-width: 1200px) {
+  .engagement-card {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%; } }
 
 .card-btn {
   margin-bottom: 20px;
