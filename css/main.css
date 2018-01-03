@@ -647,6 +647,30 @@ a.nowrap {
   color: black;
   line-height: 1.2; }
 
+.details-h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  font-weight: 600;
+  color: #148ba9;
+  line-height: 1.2; }
+
+.intro3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #148ba9;
+  line-height: 1.2; }
+
+.details-p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3em;
+  font-weight: 400;
+  color: black;
+  line-height: 1.2;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px; }
+
 /* don't display the checkbox */
 .full-chk {
   display: none; }
@@ -1072,6 +1096,12 @@ body {
   height: 50px;
   background-color: transparent !important;
   display: none; }
+
+.infographic {
+  width: 80%; }
+
+.smaller-icon2 {
+  width: 60%; }
 
 body {
   background-color: white;
