@@ -30,7 +30,7 @@
      <meta name="twitter:image" content="">
 
   </head>
-    <body>
+    <body onload="location.reload(forceGet);">
       <!-- Hamburger navigation and full screen menu -->
       {% include navmenu.html %}
       <div class="container-fluid">
@@ -72,7 +72,7 @@
         <footer class="global-footer text-center" role="contentinfo">
           {% include footer.html %}
         </footer>
-
+        <input type="hidden" id="refreshed" value="no">
     </div>
 
         <!-- Footer Scripts
@@ -86,17 +86,15 @@
 
         <!-- Jquery to resolve menu visibility when closed. Animation of down arrows too. -->
         <script type="text/javascript">
+
           $(document).ready(function(){
-            <!-- arrow slide down at page load -->
        	    $(".arrow").delay("fast").slideDown(1000);
             $('label.full-cntr').click( function(e) {
               $('.full-nav').toggleClass("noshow");
             });
             $(window).scroll(function(){
               var pixelstop = $(window).scrollTop();
-
                 $(".big-banner ").css("opacity", 1 - pixelstop / 300);
-
             });
           });
         </script>
