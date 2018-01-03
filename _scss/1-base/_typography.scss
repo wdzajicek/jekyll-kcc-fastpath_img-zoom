@@ -44,6 +44,8 @@ p.home {
   letter-spacing: 1px;
   color: black;
   line-height: 1.2;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .gold {
@@ -53,6 +55,8 @@ p.home {
   letter-spacing: 1px;
   color: $fp-orange;
   line-height: 1.2;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 // glyphicon display and layout styles
@@ -111,6 +115,14 @@ a.nowrap {
 .card-p {
   font-family: 'Roboto', sans-serif;
   font-size: 1.4em;
+  font-weight: 400;
+  color: black;
+  line-height: 1.2;
+}
+
+.contact-info {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
   font-weight: 400;
   color: black;
   line-height: 1.2;
