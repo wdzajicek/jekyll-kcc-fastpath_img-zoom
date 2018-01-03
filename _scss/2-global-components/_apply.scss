@@ -19,6 +19,12 @@
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .apply-pos {
+    width: 60%;
+  }
+}
+
 .no-scroll {
   overflow-y: hidden;
 }

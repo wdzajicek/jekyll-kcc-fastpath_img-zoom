@@ -11,6 +11,12 @@
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .phone {
+    width: 8%;
+  }
+}
+
 .questions-pos {
   margin-bottom: -40px;
   margin-top: -40px;
@@ -20,6 +26,12 @@
 @media screen and (min-width: 1024px) {
   .questions-pos {
     width: 40%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .questions-pos {
+    width: 22%;
   }
 }
 
