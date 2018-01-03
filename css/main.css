@@ -916,10 +916,10 @@ body {
 
 .apply-pos {
   margin-top: -40px;
-  margin-bottom: -40px;
+  margin-bottom: -20px;
   margin-left: -40px;
   overflow-y: hidden;
-  width: 80%; }
+  width: 70%; }
 
 .no-scroll {
   overflow-y: hidden; }
@@ -1109,7 +1109,7 @@ body {
   margin-bottom: -40px;
   width: 55%; }
 
-.arrow {
+.arrow2 {
   z-index: 46;
   position: absolute;
   left: 40%;
@@ -1122,6 +1122,13 @@ body {
   height: 50px;
   background-color: transparent !important;
   display: none; }
+
+.what-pos {
+  width: 60%; }
+
+.why-marg {
+  margin-top: -30px;
+  margin-bottom: 40px; }
 
 body {
   background-color: white;
