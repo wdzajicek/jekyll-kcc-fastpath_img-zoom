@@ -127,6 +127,12 @@ p.home {
   }
 }
 
+@media screen and (min-width: 2880px) {
+  .intro2 {
+    font-size: 2em;
+  }
+}
+
 .intro-p {
   font-family: 'Roboto', sans-serif;
   font-size: 1.3em;
@@ -326,6 +332,12 @@ a.nowrap {
   font-weight: 600;
   color: $fp-emerald;
   line-height: 1.2;
+}
+
+@media screen and (min-width: 2880px) {
+  .details-h1 {
+    font-size: 2.6em;
+  }
 }
 
 .intro3 {
