@@ -801,6 +801,11 @@ a.nowrap {
   padding-left: 20px;
   padding-right: 20px; }
 
+@media screen and (min-width: 2880px) {
+  .details-p {
+    padding-left: 240px;
+    padding-right: 240px; } }
+
 .deep-red {
   font-family: 'Roboto', sans-serif;
   font-size: 1.7em;
@@ -1536,6 +1541,16 @@ body {
     width: 28%;
     margin-bottom: 0; } }
 
+@media screen and (min-width: 1920px) {
+  .infographic {
+    width: 26%;
+    margin-bottom: 0; } }
+
+@media screen and (min-width: 2880px) {
+  .infographic {
+    width: 25%;
+    margin-bottom: 0; } }
+
 .smaller-icon2 {
   width: 50%; }
 
@@ -1606,11 +1621,11 @@ body {
 
 @media screen and (min-width: 1280px) {
   .arrow2 {
-    margin-top: 600px; } }
+    margin-top: 550px; } }
 
 @media screen and (min-width: 1920px) {
   .arrow2 {
-    margin-top: 920px;
+    margin-top: 770px;
     left: 46%;
     width: 120px;
     height: 120px; } }

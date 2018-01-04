@@ -28,3 +28,17 @@
     margin-bottom: 0;
   }
 }
+
+@media screen and (min-width: 1920px) {
+  .infographic {
+    width: 26%;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 2880px) {
+  .infographic {
+    width: 25%;
+    margin-bottom: 0;
+  }
+}
