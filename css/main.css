@@ -901,8 +901,8 @@ a.nowrap {
           transform: rotate(0deg);
   -webkit-transform-origin: left center;
           transform-origin: left center;
-  transition: background-color 0.3s ease-out 0s, opacity 0.3s ease-out 0.1s, -webkit-transform 0.2s ease-out 0s, width 0.2s ease-out 0s, left 0.2s ease-out 0s;
-  transition: background-color 0.3s ease-out 0s, opacity 0.3s ease-out 0.1s, transform 0.2s ease-out 0s, width 0.2s ease-out 0s, left 0.2s ease-out 0s; }
+  transition: background-color 0.3s ease-out 0s, opacity 0.3s ease-out 0.1s, -webkit-transform 0.2s ease-out 0s, width 0.2s ease-out 0s, left 0.2s ease-out 0s;
+  transition: background-color 0.3s ease-out 0s, opacity 0.3s ease-out 0.1s, transform 0.2s ease-out 0s, width 0.2s ease-out 0s, left 0.2s ease-out 0s; }
 
 @media screen and (max-width: 480px) {
   .full-span {
@@ -956,7 +956,7 @@ a.nowrap {
   background-color: #148caa;
   opacity: .95 !important;
   z-index: 9996;
-  transition: opacity 0.3s ease-out 0s, z-index 0s ease-out 0.3s; }
+  transition: opacity 0.3s ease-out 0s, z-index 0s ease-out 0.3s; }
 
 .full-chk:checked ~ .full-nav {
   opacity: 1;
@@ -1087,6 +1087,10 @@ a.nowrap {
   .top-banner {
     height: 280px; } }
 
+@media screen and (min-width: 2880px) {
+  .top-banner {
+    height: 400px; } }
+
 .hero {
   background-image: url(/img/hero_mobile_small.jpg);
   background-repeat: no-repeat;
@@ -1144,6 +1148,11 @@ a.nowrap {
   .hero {
     margin-top: -150px; } }
 
+@media screen and (min-width: 2880px) {
+  .hero {
+    height: 1800px;
+    margin-top: -240px; } }
+
 .wave {
   width: 100%;
   height: auto;
@@ -1178,6 +1187,10 @@ a.nowrap {
 @media screen and (min-width: 1920px) {
   .wave {
     margin-top: 1080px; } }
+
+@media screen and (min-width: 2880px) {
+  .wave {
+    margin-top: 1900px; } }
 
 .content-marg {
   margin-top: -90px;
@@ -1520,7 +1533,8 @@ body {
 
 @media screen and (min-width: 1280px) {
   .infographic {
-    width: 30%; } }
+    width: 28%;
+    margin-bottom: 0; } }
 
 .smaller-icon2 {
   width: 50%; }
@@ -1707,6 +1721,10 @@ body {
 @media screen and (min-width: 1920px) {
   .top-banner2 {
     height: 280px; } }
+
+@media screen and (min-width: 1280px) {
+  .pull-up {
+    margin-top: -80px; } }
 
 body {
   background-color: white;
