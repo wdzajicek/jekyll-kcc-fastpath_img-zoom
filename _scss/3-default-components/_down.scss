@@ -19,3 +19,21 @@
 		margin-top: 570px;
 	}
 }
+
+@media screen and (min-width: 768px) {
+	.arrow {
+		left: 43%;
+		width: 100px;
+		height: 100px;
+		margin-top: 570px;
+	}
+}
+
+@media screen and (min-width: 1920px) {
+	.arrow {
+		left: 43%;
+		width: 140px;
+		height: 140px;
+		margin-top: 900px;
+	}
+}
