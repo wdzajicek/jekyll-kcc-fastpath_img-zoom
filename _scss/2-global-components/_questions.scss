@@ -17,6 +17,24 @@
   }
 }
 
+@media screen and (max-height: 375px) and (max-width: 667px) {
+  .phone {
+    width: 15%;
+  }
+}
+
+@media screen and (max-height: 360px) and (max-width: 640px) {
+  .phone {
+    width: 15%;
+  }
+}
+
+@media screen and (max-height: 320px) and (max-width: 568px) {
+  .phone {
+    width: 20%;
+  }
+}
+
 .questions-pos {
   margin-bottom: -40px;
   margin-top: -40px;
@@ -38,5 +56,23 @@
 @media screen and (min-width: 1200px) {
   .questions-pos {
     width: 22%;
+  }
+}
+
+@media screen and (max-height: 375px) and (max-width: 667px) {
+  .questions-pos {
+    width: 40%;
+  }
+}
+
+@media screen and (max-height: 360px) and (max-width: 640px) {
+  .questions-pos {
+    width: 40%;
+  }
+}
+
+@media screen and (max-height: 320px) and (max-width: 568px) {
+  .questions-pos {
+    width: 40%;
   }
 }

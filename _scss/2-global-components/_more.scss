@@ -24,6 +24,25 @@
     width: 60%;
   }
 }
+
+@media screen and (max-height: 375px) and (max-width: 667px) {
+  .more-pos {
+    width: 40%;
+  }
+}
+
+@media screen and (max-height: 360px) and (max-width: 640px) {
+  .more-pos {
+    width: 40%;
+  }
+}
+
+@media screen and (max-height: 320px) and (max-width: 568px) {
+  .more-pos {
+    width: 40%;
+  }
+}
+
 .more-z {
   z-index: 9995;
 }

@@ -32,6 +32,24 @@
   }
 }
 
+@media screen and (max-height: 375px) and (max-width: 667px) {
+  .apply-pos {
+    width: 40%;
+  }
+}
+
+@media screen and (max-height: 360px) and (max-width: 640px) {
+  .apply-pos {
+    width: 40%;
+  }
+}
+
+@media screen and (max-height: 320px) and (max-width: 568px) {
+  .apply-pos {
+    width: 40%;
+  }
+}
+
 .no-scroll {
   overflow-y: hidden;
 }
