@@ -23,6 +23,25 @@
   }
 }
 
+@media screen and (max-height: 375px) and (max-width: 667px) {
+  .content-marg {
+    margin-top: -200px;
+  }
+}
+
+@media screen and (max-height: 360px) and (max-width: 640px) {
+  .content-marg {
+    margin-top: -180px;
+  }
+}
+
+@media screen and (max-height: 320px) and (max-width: 568px) {
+  .content-marg {
+    margin-top: -160px;
+  }
+}
+
+
 .back-white {
   background-color: $bgcolor !important;
 }
