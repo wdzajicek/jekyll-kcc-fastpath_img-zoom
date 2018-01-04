@@ -107,6 +107,8 @@ p.home {
   letter-spacing: 1px;
   color: $fp-emerald;
   line-height: 1.2;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 @media screen and (min-width: 768px) {
@@ -129,6 +131,39 @@ p.home {
 
 @media screen and (min-width: 2880px) {
   .intro2 {
+    font-size: 2em;
+  }
+}
+
+.intro4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.7em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: $fp-emerald;
+  line-height: 1.2;
+}
+
+@media screen and (min-width: 768px) {
+  .intro4 {
+    font-size: 1.8em;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro4 {
+    font-size: 1.4em;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .intro4 {
+    font-size: 1.8em;
+  }
+}
+
+@media screen and (min-width: 2880px) {
+  .intro4 {
     font-size: 2em;
   }
 }
@@ -402,6 +437,20 @@ a.nowrap {
   text-align: left;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+@media screen and (min-width: 1280px) {
+  .why-p {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .why-p {
+    padding-left: 40px;
+    padding-right: 180px;
+  }
 }
 
 .contact-intro {
