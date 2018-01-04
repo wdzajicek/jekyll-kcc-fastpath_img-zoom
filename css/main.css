@@ -1233,13 +1233,17 @@ body {
   width: 70%;
   z-index: 9994; }
 
+@media screen and (min-width: 375px) {
+  .apply-pos {
+    width: 60%; } }
+
 @media screen and (min-width: 768px) {
   .apply-pos {
     width: 40%; } }
 
 @media screen and (min-width: 1024px) {
   .apply-pos {
-    width: 40%; } }
+    width: 30%; } }
 
 @media screen and (min-width: 1200px) {
   .apply-pos {
@@ -1261,7 +1265,7 @@ body {
 
 @media screen and (min-width: 1024px) {
   .more-pos {
-    width: 40%; } }
+    width: 30%; } }
 
 @media screen and (min-width: 1200px) {
   .more-pos {
@@ -1297,7 +1301,7 @@ body {
 .questions-pos {
   margin-bottom: -40px;
   margin-top: -40px;
-  width: 60%; }
+  width: 70%; }
 
 @media screen and (min-width: 768px) {
   .questions-pos {
@@ -1305,7 +1309,7 @@ body {
 
 @media screen and (min-width: 1024px) {
   .questions-pos {
-    width: 40%; } }
+    width: 30%; } }
 
 @media screen and (min-width: 1200px) {
   .questions-pos {
@@ -1501,13 +1505,58 @@ body {
   width: 80%;
   margin-bottom: 40px; }
 
+@media screen and (min-width: 412px) {
+  .infographic {
+    width: 70%; } }
+
+@media screen and (min-width: 768px) {
+  .infographic {
+    width: 60%;
+    margin-top: -40px; } }
+
+@media screen and (min-width: 1024px) {
+  .infographic {
+    width: 50%; } }
+
+@media screen and (min-width: 1280px) {
+  .infographic {
+    width: 30%; } }
+
 .smaller-icon2 {
-  width: 60%; }
+  width: 50%; }
+
+@media screen and (min-width: 412px) {
+  .smaller-icon2 {
+    width: 40%; } }
+
+@media screen and (min-width: 768px) {
+  .smaller-icon2 {
+    width: 30%; } }
+
+@media screen and (min-width: 1024px) {
+  .smaller-icon2 {
+    width: 25%; } }
 
 .tight-marg {
   margin-top: -20px;
   margin-bottom: -40px;
-  width: 55%; }
+  width: 40%; }
+
+@media screen and (min-width: 412px) {
+  .tight-marg {
+    width: 30%; } }
+
+@media screen and (min-width: 768px) {
+  .tight-marg {
+    width: 20%; } }
+
+@media screen and (min-width: 1024px) {
+  .tight-marg {
+    width: 15%; } }
+
+@media screen and (min-width: 1280px) {
+  .tight-marg {
+    width: 30%; } }
 
 .arrow2 {
   z-index: 46;
@@ -1523,8 +1572,53 @@ body {
   background-color: transparent !important;
   display: none; }
 
+@media screen and (min-width: 360px) {
+  .arrow2 {
+    margin-top: 310px; } }
+
+@media screen and (min-width: 768px) {
+  .arrow2 {
+    margin-top: 420px;
+    left: 44%;
+    width: 75px;
+    height: 75px; } }
+
+@media screen and (min-width: 1024px) {
+  .arrow2 {
+    margin-top: 460px;
+    left: 45%;
+    width: 100px;
+    height: 100px; } }
+
+@media screen and (min-width: 1280px) {
+  .arrow2 {
+    margin-top: 600px; } }
+
+@media screen and (min-width: 1920px) {
+  .arrow2 {
+    margin-top: 920px;
+    left: 46%;
+    width: 120px;
+    height: 120px; } }
+
 .what-pos {
   width: 60%; }
+
+@media screen and (min-width: 375px) {
+  .what-pos {
+    width: 50%; } }
+
+@media screen and (min-width: 768px) {
+  .what-pos {
+    width: 40%; } }
+
+@media screen and (min-width: 1024px) {
+  .what-pos {
+    width: 30%; } }
+
+@media screen and (min-width: 1280px) {
+  .what-pos {
+    width: 50%; } }
 
 .why-marg {
   margin-top: -30px;
@@ -1543,6 +1637,53 @@ body {
   border-bottom-color: black;
   border-bottom-width: medium;
   text-align: left; }
+
+.top-banner2 {
+  background-color: #eeefef;
+  background-image: url(/img/top-banner-mobile_small.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+  height: 106px;
+  z-index: 9994; }
+
+@media screen and (min-width: 375px) and (max-width: 411px) {
+  .top-banner2 {
+    background-size: cover;
+    height: 120px; } }
+
+@media screen and (min-width: 412px) and (max-width: 414px) {
+  .top-banner2 {
+    background-image: url(/img/top-banner-mobile.png);
+    background-size: contain;
+    height: 150px; } }
+
+@media screen and (min-width: 415px) and (max-width: 480px) {
+  .top-banner2 {
+    background-image: url(/img/top-banner-mobile.png);
+    background-size: contain; } }
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .top-banner2 {
+    background-image: url(/img/top-banner-tablet.png);
+    background-size: contain;
+    height: 320px; } }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .top-banner2 {
+    background-image: url(/img/top-banner-tablet.png);
+    background-size: contain;
+    height: 250px; } }
+
+@media screen and (min-width: 1025px) {
+  .top-banner2 {
+    background-image: url(/img/top-banner-desktop.png);
+    background-size: contain;
+    height: 220px; } }
+
+@media screen and (min-width: 1920px) {
+  .top-banner2 {
+    height: 280px; } }
 
 body {
   background-color: white;
