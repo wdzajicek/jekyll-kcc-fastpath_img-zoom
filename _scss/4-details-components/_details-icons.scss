@@ -1,9 +1,51 @@
 .smaller-icon2 {
-  width: 60%;
+  width: 50%;
+}
+
+@media screen and (min-width: 412px) {
+  .smaller-icon2 {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .smaller-icon2 {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .smaller-icon2 {
+    width: 25%;
+  }
 }
 
 .tight-marg {
   margin-top: -20px;
   margin-bottom: -40px;
-  width: 55%;
+  width: 40%;
+}
+
+@media screen and (min-width: 412px) {
+  .tight-marg {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .tight-marg {
+    width: 20%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .tight-marg {
+    width: 15%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .tight-marg {
+    width: 30%;
+  }
 }
