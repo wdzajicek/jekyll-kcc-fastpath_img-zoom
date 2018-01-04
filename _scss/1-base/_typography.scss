@@ -347,6 +347,13 @@ a.nowrap {
   padding-right: 20px;
 }
 
+@media screen and (min-width: 2880px) {
+  .details-p {
+    padding-left: 240px;
+    padding-right: 240px;
+  }
+}
+
 .deep-red {
   font-family: 'Roboto', sans-serif;
   font-size: 1.7em;
