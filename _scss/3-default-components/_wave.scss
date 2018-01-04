@@ -54,6 +54,11 @@
   }
 }
 
+@media screen and (max-height: 412px) and (max-width: 732px) {
+  .wave {
+    margin-top: 420px;
+  }
+}
 
 @media screen and (max-height: 375px) and (max-width: 667px) {
   .wave {
