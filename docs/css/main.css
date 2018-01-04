@@ -1246,12 +1246,9 @@ a.nowrap {
   width: 100%;
   height: auto;
   z-index: 9994;
-  margin-top: 280px !important;
+  margin-top: -50px;
   position: relative; }
 
-  @media screen and (max-height: 1024px) and (max-width: 1366px) {
-    .wave {
-      margin-top: 1040px; } }
 
   @media screen and (max-height: 414px) and (max-width: 736px) {
     .wave {
@@ -1267,27 +1264,27 @@ a.nowrap {
 
 @media screen and (min-width: 360px) and (max-width: 374px) {
   .wave {
-    margin-top: 310px !important; } }
+    margin-top: -50px !important; } }
 
 @media screen and (min-width: 375px) and (max-width: 411px) {
   .wave {
-    margin-top: 340px !important; } }
+    margin-top: -50px !important; } }
 
 @media screen and (min-width: 412px) and (max-width: 480px) {
   .wave {
-    margin-top: 380px !important; } }
+    margin-top: -50px !important; } }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .wave {
-    margin-top: 670px !important; } }
+    margin-top: -90px !important; } }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .wave {
-    margin-top: 790px !important; } }
+    margin-top: -120px !important; } }
 
 @media screen and (min-width: 1025px) {
   .wave {
-    margin-top: 900px !important; } }
+    margin-top: -380px !important; } }
 
 @media screen and (min-width: 1920px) {
   .wave {
