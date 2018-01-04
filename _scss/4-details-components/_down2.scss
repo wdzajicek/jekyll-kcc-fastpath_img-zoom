@@ -49,3 +49,24 @@
 		height: 120px;
 	}
 }
+
+@media screen and (max-height: 375px) and (max-width: 667px) {
+  .arrow2 {
+		margin-top: 40px;
+		left: 46%;
+  }
+}
+
+@media screen and (max-height: 360px) and (max-width: 640px) {
+  .arrow2 {
+	  left: 45.5%;
+    margin-top:  40px;
+  }
+}
+
+@media screen and (max-height: 320px) and (max-width: 568px) {
+  .arrow2 {
+		left: 44.5%;
+    margin-top: 35px;
+  }
+}

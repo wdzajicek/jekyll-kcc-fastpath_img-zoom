@@ -26,6 +26,30 @@
   }
 }
 
+@media screen and (max-height: 412px) and (max-width: 732px) {
+  .what-pos {
+	  width: 30%;
+  }
+}
+
+@media screen and (max-height: 375px) and (max-width: 667px) {
+  .what-pos {
+	  width: 30%;
+  }
+}
+
+@media screen and (max-height: 360px) and (max-width: 640px) {
+  .what-pos {
+	  width: 30%;
+  }
+}
+
+@media screen and (max-height: 320px) and (max-width: 568px) {
+  .what-pos {
+    width: 34%
+  }
+}
+
 .why-marg {
   margin-top: -30px;
   margin-bottom: 40px;
