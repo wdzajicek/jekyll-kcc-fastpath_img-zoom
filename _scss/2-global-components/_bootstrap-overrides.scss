@@ -5,3 +5,25 @@
 p.home {
   margin-bottom: 0;
 }
+
+.btn {
+  font-size: 1.2em;
+}
+
+@media screen and (min-width: 1280px) {
+  .btn {
+    font-size: 1.1em;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .btn {
+    font-size: 1.6em;
+  }
+}
+
+@media screen and (min-width: 2880px) {
+  .btn {
+    font-size: 1.8em;
+  }
+}
