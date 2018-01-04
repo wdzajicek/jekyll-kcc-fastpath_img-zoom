@@ -1,12 +1,77 @@
-.arrow2 {
+.arrow3 {
 	z-index: 46;
 	position: absolute;
-	left: 40%;
-	margin-top: 280px;
+	left: 41%;
+	margin-top: 205px;
 	align-items: center;
   justify-content: center;
 	width: 50px;
 	height: 50px;
 	background-color: transparent !important;
 	display: none;
+}
+
+@media screen and (min-width: 360px) {
+	.arrow3 {
+		margin-top: 225px;
+		width: 60px;
+		height: 60px;
+	}
+}
+
+
+@media screen and (min-width: 375px) {
+	.arrow3 {
+		margin-top: 225px;
+		width: 75px;
+		height: 75px;
+	}
+}
+
+@media screen and (min-width: 412px) {
+	.arrow3 {
+		margin-top: 255px;
+		width: 75px;
+		height: 75px;
+	}
+}
+
+
+@media screen and (min-width: 768px) {
+	.arrow3 {
+		margin-top: 225px;
+		left: 43%;
+		width: 80px;
+		height: 80px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.arrow3 {
+		left: 45%;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.arrow3 {
+		margin-top: 435px;
+	}
+}
+
+@media screen and (min-width: 1920px) {
+	.arrow3 {
+		left: 48%;
+		margin-top: 465px;
+		width: 100px;
+		height: 100px;
+	}
+}
+
+@media screen and (min-width: 2880px) {
+	.arrow3 {
+		left: 48%;
+		margin-top: 500px;
+		width: 160px;
+		height: 160px;
+	}
 }
