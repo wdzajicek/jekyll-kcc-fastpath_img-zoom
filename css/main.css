@@ -630,6 +630,10 @@ p.home {
   .intro2 {
     font-size: 1.8em; } }
 
+@media screen and (min-width: 2880px) {
+  .intro2 {
+    font-size: 2em; } }
+
 .intro-p {
   font-family: 'Roboto', sans-serif;
   font-size: 1.3em;
@@ -783,6 +787,10 @@ a.nowrap {
   font-weight: 600;
   color: #148ba9;
   line-height: 1.2; }
+
+@media screen and (min-width: 2880px) {
+  .details-h1 {
+    font-size: 2.6em; } }
 
 .intro3 {
   font-family: 'Roboto', sans-serif;
@@ -1369,6 +1377,18 @@ body {
     margin-left: 10%;
     margin-right: 10%; } }
 
+@media screen and (min-width: 1920px) {
+  .engagement-card {
+    width: 65%;
+    margin-left: 17.5%;
+    margin-right: 17.5%; } }
+
+@media screen and (min-width: 2880px) {
+  .engagement-card {
+    width: 45%;
+    margin-left: 22.5%;
+    margin-right: 22.5%; } }
+
 .card-btn {
   margin-bottom: 20px;
   margin-top: 20px; }
@@ -1543,7 +1563,7 @@ body {
 
 @media screen and (min-width: 1920px) {
   .infographic {
-    width: 26%;
+    width: 23%;
     margin-bottom: 0; } }
 
 @media screen and (min-width: 2880px) {
@@ -1625,7 +1645,7 @@ body {
 
 @media screen and (min-width: 1920px) {
   .arrow2 {
-    margin-top: 770px;
+    margin-top: 720px;
     left: 46%;
     width: 120px;
     height: 120px; } }
@@ -1652,6 +1672,21 @@ body {
 .why-marg {
   margin-top: -30px;
   margin-bottom: 40px; }
+
+@media screen and (min-width: 1280px) {
+  .why-marg {
+    margin-top: 14px;
+    margin-bottom: 90px; } }
+
+@media screen and (min-width: 1920px) {
+  .why-marg {
+    margin-top: 40px;
+    margin-bottom: 120px; } }
+
+@media screen and (min-width: 2880px) {
+  .why-marg {
+    margin-top: 80px;
+    margin-bottom: 130px; } }
 
 .youll-get {
   width: 80%; }
