@@ -549,7 +549,19 @@ h1.bgcolor {
 
 @media screen and (min-width: 768px) {
   h1.bgcolor {
+    font-size: 2.6em; } }
+
+@media screen and (min-width: 1280px) {
+  h1.bgcolor {
+    font-size: 2.4em; } }
+
+@media screen and (min-width: 1920px) {
+  h1.bgcolor {
     font-size: 3em; } }
+
+@media screen and (min-width: 2880px) {
+  h1.bgcolor {
+    font-size: 5em; } }
 
 h2.emerald {
   font-family: 'Roboto', sans-serif;
@@ -561,7 +573,15 @@ h2.emerald {
 
 @media screen and (min-width: 768px) {
   h2.emerald {
-    font-size: 2em; } }
+    font-size: 1.8em; } }
+
+@media screen and (min-width: 1920px) {
+  h2.emerald {
+    font-size: 2.2em; } }
+
+@media screen and (min-width: 2880px) {
+  h2.emerald {
+    font-size: 4em; } }
 
 p.home {
   font-family: 'Roboto', sans-serif;
@@ -574,7 +594,21 @@ p.home {
 
 @media screen and (min-width: 768px) {
   p.home {
-    font-size: 1.4em; } }
+    font-size: 1.4em;
+    padding-left: 40px;
+    padding-right: 40px; } }
+
+@media screen and (min-width: 1280px) {
+  p.home {
+    font-size: 1.1em;
+    padding-left: 40px;
+    padding-right: 40px; } }
+
+@media screen and (min-width: 1920px) {
+  p.home {
+    font-size: 1.4em;
+    padding-left: 60px;
+    padding-right: 60px; } }
 
 .intro2 {
   font-family: 'Roboto', sans-serif;
@@ -586,7 +620,15 @@ p.home {
 
 @media screen and (min-width: 768px) {
   .intro2 {
-    font-size: 2em; } }
+    font-size: 1.8em; } }
+
+@media screen and (min-width: 1280px) {
+  .intro2 {
+    font-size: 1.4em; } }
+
+@media screen and (min-width: 1920px) {
+  .intro2 {
+    font-size: 1.8em; } }
 
 .intro-p {
   font-family: 'Roboto', sans-serif;
@@ -598,6 +640,18 @@ p.home {
   padding-left: 20px;
   padding-right: 20px; }
 
+@media screen and (min-width: 1280px) {
+  .intro-p {
+    font-size: 1.1em; } }
+
+@media screen and (min-width: 1920px) {
+  .intro-p {
+    font-size: 1.4em; } }
+
+@media screen and (min-width: 2880px) {
+  .intro-p {
+    font-size: 2em; } }
+
 .gold {
   font-family: 'Roboto', sans-serif;
   font-size: 1.3em;
@@ -607,6 +661,18 @@ p.home {
   line-height: 1.2;
   padding-left: 20px;
   padding-right: 20px; }
+
+@media screen and (min-width: 1280px) {
+  .gold {
+    font-size: 1.1em; } }
+
+@media screen and (min-width: 1920px) {
+  .gold {
+    font-size: 1.4em; } }
+
+@media screen and (min-width: 2880px) {
+  .gold {
+    font-size: 2em; } }
 
 .glyph-big {
   font-size: 4em;
@@ -621,6 +687,18 @@ p.home {
   color: #148ba9;
   line-height: 1.2; }
 
+@media screen and (min-width: 1280px) {
+  .heading-margin {
+    font-size: 1.5em; } }
+
+@media screen and (min-width: 1920px) {
+  .heading-margin {
+    font-size: 2em; } }
+
+@media screen and (min-width: 2880px) {
+  .heading-margin {
+    font-size: 2.9em; } }
+
 .get-started-h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 2.3em;
@@ -630,6 +708,14 @@ p.home {
   line-height: 1.2;
   margin-bottom: 40px;
   margin-top: 60px; }
+
+@media screen and (min-width: 1920px) {
+  .get-started-h1 {
+    font-size: 2.9em; } }
+
+@media screen and (min-width: 2880px) {
+  .get-started-h1 {
+    font-size: 3em; } }
 
 .footer-text {
   font-family: 'Roboto', sans-serif;
@@ -653,6 +739,10 @@ a.nowrap {
   color: black;
   line-height: 1.2; }
 
+@media screen and (min-width: 1920px) {
+  .engagement-card-headline {
+    font-size: 2.6em; } }
+
 .card-p {
   font-family: 'Roboto', sans-serif;
   font-size: 1.4em;
@@ -660,16 +750,32 @@ a.nowrap {
   color: black;
   line-height: 1.2; }
 
+@media screen and (min-width: 1920px) {
+  .card-p {
+    font-size: 1.6em; } }
+
 .contact-info {
   font-family: 'Roboto', sans-serif;
   font-size: 1.2em;
   font-weight: 400;
   color: black;
-  line-height: 1.2; }
+  line-height: 1.3; }
 
 @media screen and (min-width: 768px) {
   .contact-info {
     font-size: 1.4em; } }
+
+@media screen and (min-width: 1280px) {
+  .contact-info {
+    font-size: 1.1em; } }
+
+@media screen and (min-width: 1920px) {
+  .contact-info {
+    font-size: 1.4em; } }
+
+@media screen and (min-width: 2880px) {
+  .contact-info {
+    font-size: 2em; } }
 
 .details-h1 {
   font-family: 'Roboto', sans-serif;
@@ -729,6 +835,25 @@ a.nowrap {
   padding-left: 20px;
   padding-right: 20px; }
 
+.contact-intro {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: black;
+  line-height: 1.2; }
+
+@media screen and (min-width: 1920px) {
+  .contact-intro {
+    font-size: 1.6em; } }
+
+@media screen and (min-width: 2880px) {
+  .contact-intro {
+    font-size: 2em; } }
+
+.footer-text {
+  text-align: left; }
+
 /* don't display the checkbox */
 .full-chk {
   display: none; }
@@ -776,8 +901,8 @@ a.nowrap {
           transform: rotate(0deg);
   -webkit-transform-origin: left center;
           transform-origin: left center;
-  transition: background-color 0.3s ease-out 0s, opacity 0.3s ease-out 0.1s, -webkit-transform 0.2s ease-out 0s, width 0.2s ease-out 0s, left 0.2s ease-out 0s;
-  transition: background-color 0.3s ease-out 0s, opacity 0.3s ease-out 0.1s, transform 0.2s ease-out 0s, width 0.2s ease-out 0s, left 0.2s ease-out 0s; }
+  transition: background-color 0.3s ease-out 0s, opacity 0.3s ease-out 0.1s, -webkit-transform 0.2s ease-out 0s, width 0.2s ease-out 0s, left 0.2s ease-out 0s;
+  transition: background-color 0.3s ease-out 0s, opacity 0.3s ease-out 0.1s, transform 0.2s ease-out 0s, width 0.2s ease-out 0s, left 0.2s ease-out 0s; }
 
 @media screen and (max-width: 480px) {
   .full-span {
@@ -831,7 +956,7 @@ a.nowrap {
   background-color: #148caa;
   opacity: .95 !important;
   z-index: 9996;
-  transition: opacity 0.3s ease-out 0s, z-index 0s ease-out 0.3s; }
+  transition: opacity 0.3s ease-out 0s, z-index 0s ease-out 0.3s; }
 
 .full-chk:checked ~ .full-nav {
   opacity: 1;
@@ -1145,6 +1270,17 @@ body {
 .more-z {
   z-index: 9995; }
 
+.more-down {
+  margin-top: 1.6em; }
+
+@media screen and (min-width: 1280px) {
+  .more-down {
+    margin-top: 3.2em; } }
+
+@media screen and (min-width: 1920px) {
+  .more-down {
+    margin-top: 2.8em; } }
+
 .phone {
   margin-left: -80px;
   margin-top: 40px;
@@ -1174,14 +1310,6 @@ body {
 @media screen and (min-width: 1200px) {
   .questions-pos {
     width: 22%; } }
-
-.contact-intro {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.3em;
-  font-weight: 600;
-  letter-spacing: 1px;
-  color: black;
-  line-height: 1.2; }
 
 .card-set {
   background: #0f3b63;
@@ -1230,7 +1358,7 @@ body {
 .nav-social {
   float: left;
   list-style-type: none;
-  margin-left: 9px;
+  margin-left: -8px;
   padding-left: 0; }
 
 .nav-social li {
@@ -1355,6 +1483,20 @@ body {
     height: 100px;
     margin-top: 570px; } }
 
+@media screen and (min-width: 768px) {
+  .arrow {
+    left: 43%;
+    width: 100px;
+    height: 100px;
+    margin-top: 570px; } }
+
+@media screen and (min-width: 1920px) {
+  .arrow {
+    left: 43%;
+    width: 140px;
+    height: 140px;
+    margin-top: 900px; } }
+
 .infographic {
   width: 80%;
   margin-bottom: 40px; }
@@ -1417,3 +1559,18 @@ div {
 
 p.home {
   margin-bottom: 0; }
+
+.btn {
+  font-size: 1.2em; }
+
+@media screen and (min-width: 1280px) {
+  .btn {
+    font-size: 1.1em; } }
+
+@media screen and (min-width: 1920px) {
+  .btn {
+    font-size: 1.6em; } }
+
+@media screen and (min-width: 2880px) {
+  .btn {
+    font-size: 1.8em; } }
