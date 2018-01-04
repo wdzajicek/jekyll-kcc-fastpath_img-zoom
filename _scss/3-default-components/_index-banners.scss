@@ -66,6 +66,12 @@
   }
 }
 
+@media screen and (min-width: 2880px) {
+  .top-banner {
+    height: 400px;
+  }
+}
+
 .hero {
   background-image: url(/img/hero_mobile_small.jpg);
   background-repeat: no-repeat;
@@ -137,5 +143,11 @@
 @media screen and (min-width: 1920px) {
   .hero {
     margin-top: -150px;
+  }
+}
+@media screen and (min-width: 2880px) {
+  .hero {
+    height: 1800px;
+    margin-top: -240px;
   }
 }
