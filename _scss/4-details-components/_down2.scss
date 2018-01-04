@@ -50,6 +50,26 @@
 	}
 }
 
+@media screen and (max-height: 768px) and (max-width: 1024px) {
+  .arrow2 {
+    margin-top: 370px;
+  }
+}
+
+@media screen and (max-height: 414px) and (max-width: 736px) {
+  .arrow2 {
+		margin-top: 230px;
+		left: 46%;
+  }
+}
+
+@media screen and (max-height: 412px) and (max-width: 732px) {
+  .arrow2 {
+		margin-top: 210px;
+		left: 44%;
+  }
+}
+
 @media screen and (max-height: 375px) and (max-width: 667px) {
   .arrow2 {
 		margin-top: 40px;

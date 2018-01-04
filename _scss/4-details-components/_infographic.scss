@@ -49,6 +49,12 @@
   }
 }
 
+@media screen and (max-height: 768px) and (max-width: 1024px) {
+  .infographic {
+    width: 40%;
+  }
+}
+
 @media screen and (max-height: 414px) and (max-width: 736px) {
   .infographic {
     width: 25%;

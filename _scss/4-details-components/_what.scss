@@ -26,6 +26,12 @@
   }
 }
 
+@media screen and (max-height: 414px) and (max-width: 736px) {
+  .what-pos {
+	  width: 33%;
+  }
+}
+
 @media screen and (max-height: 412px) and (max-width: 732px) {
   .what-pos {
 	  width: 30%;
