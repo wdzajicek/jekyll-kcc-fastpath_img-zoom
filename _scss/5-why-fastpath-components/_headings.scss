@@ -9,3 +9,27 @@
   border-bottom-width: medium;
   text-align: left;
 }
+
+@media screen and (min-width: 1024px) {
+  .half-border {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .half-border {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .half-border {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 2880px) {
+  .half-border {
+    width: 40%;
+  }
+}
