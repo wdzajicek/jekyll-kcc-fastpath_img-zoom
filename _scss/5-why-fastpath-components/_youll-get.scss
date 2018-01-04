@@ -1,3 +1,37 @@
 .youll-get {
   width: 80%;
 }
+
+@media screen and (min-width: 768px) {
+  .youll-get {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .youll-get {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .youll-get {
+    width: 60%;
+  }
+}
+
+.top-pad-tablet {
+  margin-top: 0;
+}
+
+@media screen and (min-width: 1280px) {
+  .top-pad-tablet {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .top-pad-tablet {
+    padding-top: 20px;
+  }
+}
