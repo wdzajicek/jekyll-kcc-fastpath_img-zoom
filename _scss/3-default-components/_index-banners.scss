@@ -11,13 +11,14 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position-x: center;
-  height: 119px;
+  height: 100px;
   z-index: 9994;
 }
 
 @media screen and (min-width: 375px) and (max-width: 411px) {
   .top-banner {
     background-size: cover;
+    height: 120px
   }
 }
 
@@ -25,7 +26,7 @@
   .top-banner {
     background-image: url(/img/top-banner-mobile.png);
     background-size: contain;
-    height: 160px
+    height: 140px
   }
 }
 
@@ -69,6 +70,12 @@
 @media screen and (min-width: 2880px) {
   .top-banner {
     height: 400px;
+  }
+}
+
+@media screen and (max-height: 414px) and (max-width: 736px) {
+  .top-banner {
+    height: 120px;
   }
 }
 
