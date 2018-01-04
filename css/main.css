@@ -1096,18 +1096,19 @@ a.nowrap {
   background-repeat: no-repeat;
   background-size: contain;
   background-position-x: center;
-  height: 119px;
+  height: 100px;
   z-index: 9994; }
 
 @media screen and (min-width: 375px) and (max-width: 411px) {
   .top-banner {
-    background-size: cover; } }
+    background-size: cover;
+    height: 120px; } }
 
 @media screen and (min-width: 412px) and (max-width: 414px) {
   .top-banner {
     background-image: url(/img/top-banner-mobile.png);
     background-size: contain;
-    height: 160px; } }
+    height: 140px; } }
 
 @media screen and (min-width: 415px) and (max-width: 480px) {
   .top-banner {
@@ -1139,6 +1140,10 @@ a.nowrap {
 @media screen and (min-width: 2880px) {
   .top-banner {
     height: 400px; } }
+
+@media screen and (max-height: 414px) and (max-width: 736px) {
+  .top-banner {
+    height: 120px; } }
 
 @media screen and (max-height: 412px) and (max-width: 732px) {
   .top-banner {
@@ -1241,7 +1246,7 @@ a.nowrap {
   width: 100%;
   height: auto;
   z-index: 9994;
-  margin-top: 300px;
+  margin-top: 280px;
   position: relative; }
 
 @media screen and (min-width: 360px) and (max-width: 374px) {
@@ -1254,7 +1259,7 @@ a.nowrap {
 
 @media screen and (min-width: 412px) and (max-width: 480px) {
   .wave {
-    margin-top: 400px; } }
+    margin-top: 380px; } }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .wave {
@@ -1275,6 +1280,14 @@ a.nowrap {
 @media screen and (min-width: 2880px) {
   .wave {
     margin-top: 1900px; } }
+
+@media screen and (max-height: 1024px) and (max-width: 1366px) {
+  .wave {
+    margin-top: 1040px; } }
+
+@media screen and (max-height: 414px) and (max-width: 736px) {
+  .wave {
+    margin-top: 420px; } }
 
 @media screen and (max-height: 412px) and (max-width: 732px) {
   .wave {
@@ -1301,6 +1314,10 @@ a.nowrap {
 @media screen and (min-width: 1920px) {
   .content-marg {
     margin-top: -560px; } }
+
+@media screen and (max-height: 414px) and (max-width: 736px) {
+  .content-marg {
+    margin-top: -210px; } }
 
 @media screen and (max-height: 375px) and (max-width: 667px) {
   .content-marg {
@@ -1366,6 +1383,14 @@ body {
   .apply-pos {
     width: 60%; } }
 
+@media screen and (max-height: 414px) and (max-width: 736px) {
+  .apply-pos {
+    width: 40%; } }
+
+@media screen and (max-height: 412px) and (max-width: 732px) {
+  .apply-pos {
+    width: 40%; } }
+
 @media screen and (max-height: 375px) and (max-width: 667px) {
   .apply-pos {
     width: 40%; } }
@@ -1399,6 +1424,14 @@ body {
 @media screen and (min-width: 1200px) {
   .more-pos {
     width: 60%; } }
+
+@media screen and (max-height: 414px) and (max-width: 736px) {
+  .more-pos {
+    width: 40%; } }
+
+@media screen and (max-height: 412px) and (max-width: 732px) {
+  .more-pos {
+    width: 40%; } }
 
 @media screen and (max-height: 375px) and (max-width: 667px) {
   .more-pos {
@@ -1439,6 +1472,18 @@ body {
   .phone {
     width: 8%; } }
 
+@media screen and (max-height: 768px) and (max-width: 1024px) {
+  .phone {
+    width: 12%; } }
+
+@media screen and (max-height: 414px) and (max-width: 736px) {
+  .phone {
+    width: 13%; } }
+
+@media screen and (max-height: 412px) and (max-width: 732px) {
+  .phone {
+    width: 15%; } }
+
 @media screen and (max-height: 375px) and (max-width: 667px) {
   .phone {
     width: 15%; } }
@@ -1467,6 +1512,14 @@ body {
 @media screen and (min-width: 1200px) {
   .questions-pos {
     width: 22%; } }
+
+@media screen and (max-height: 414px) and (max-width: 736px) {
+  .questions-pos {
+    width: 40%; } }
+
+@media screen and (max-height: 412px) and (max-width: 732px) {
+  .questions-pos {
+    width: 40%; } }
 
 @media screen and (max-height: 375px) and (max-width: 667px) {
   .questions-pos {

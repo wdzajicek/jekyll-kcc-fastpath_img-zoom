@@ -2,7 +2,7 @@
   width: 100%;
   height: auto;
   z-index: 9994;
-  margin-top: 300px;
+  margin-top: 280px;
   position: relative;
 }
 
@@ -20,7 +20,7 @@
 
 @media screen and (min-width: 412px) and (max-width: 480px) {
   .wave {
-    margin-top: 400px;
+    margin-top: 380px;
   }
 }
 
@@ -51,6 +51,18 @@
 @media screen and (min-width: 2880px) {
   .wave {
     margin-top: 1900px;
+  }
+}
+
+@media screen and (max-height: 1024px) and (max-width: 1366px) {
+  .wave{
+    margin-top: 1040px;
+  }
+}
+
+@media screen and (max-height: 414px) and (max-width: 736px) {
+  .wave {
+    margin-top: 420px;
   }
 }
 
