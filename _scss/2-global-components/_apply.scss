@@ -8,6 +8,12 @@
   z-index: 9994;
 }
 
+@media screen and (min-width: 375px) {
+  .apply-pos {
+    width: 60%;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .apply-pos {
     width: 40%;
@@ -16,7 +22,7 @@
 
 @media screen and (min-width: 1024px) {
   .apply-pos {
-    width: 40%;
+    width: 30%;
   }
 }
 
