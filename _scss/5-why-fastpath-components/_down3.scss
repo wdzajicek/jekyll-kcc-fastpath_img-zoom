@@ -75,3 +75,36 @@
 		height: 160px;
 	}
 }
+
+@media screen and (max-height: 414px) and (max-width: 736px) {
+	.arrow3 {
+		left: 43%;
+		margin-top: 125px;
+	}
+}
+
+@media screen and (max-height: 412px) and (max-width: 732px) {
+	.arrow3 {
+		left: 43%;
+		margin-top: 110px;
+	}
+}
+
+@media screen and (max-height: 375px) and (max-width: 667px) {
+	.arrow3 {
+		left: 43%;
+		margin-top: 105px;
+	}
+}
+
+@media screen and (max-height: 360px) and (max-width: 640px) {
+	.arrow3 {
+		margin-top: 100px;
+	}
+}
+
+@media screen and (max-height: 320px) and (max-width: 568px) {
+	.arrow3 {
+		margin-top: 75px;
+	}
+}
