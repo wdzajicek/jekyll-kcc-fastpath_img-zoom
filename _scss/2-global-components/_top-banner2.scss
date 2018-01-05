@@ -1,6 +1,6 @@
 .top-banner2 {
   background-color: #eeefef;
-  background-image: url(img/top-banner-mobile_small.png);
+  background-image: url(../img/top-banner-mobile_small.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position-x: center;
@@ -17,7 +17,7 @@
 
 @media screen and (min-width: 412px) and (max-width: 414px) {
   .top-banner2 {
-    background-image: url(img/top-banner-mobile.png);
+    background-image: url(../img/top-banner-mobile.png);
     background-size: contain;
     height: 150px
   }
@@ -25,14 +25,14 @@
 
 @media screen and (min-width: 415px) and (max-width: 480px) {
   .top-banner2 {
-    background-image: url(img/top-banner-mobile.png);
+    background-image: url(../img/top-banner-mobile.png);
     background-size: contain;
   }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .top-banner2 {
-    background-image: url(img/top-banner-tablet.png);
+    background-image: url(../img/top-banner-tablet.png);
     background-size: contain;
     height: 320px;
   }
@@ -40,7 +40,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .top-banner2 {
-    background-image: url(img/top-banner-tablet.png);
+    background-image: url(../img/top-banner-tablet.png);
     background-size: contain;
     height: 250px;
   }
@@ -48,7 +48,7 @@
 
 @media screen and (min-width: 1025px) {
   .top-banner2 {
-    background-image: url(img/top-banner-desktop.png);
+    background-image: url(../img/top-banner-desktop.png);
     background-size: contain;
     height: 220px;
   }
