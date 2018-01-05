@@ -1877,7 +1877,7 @@ body {
   z-index: 46;
   position: absolute;
   left: 40%;
-  margin-top: 280px;
+  margin-top: 175px;
   -ms-flex-align: center;
       align-items: center;
   -ms-flex-pack: center;
@@ -1889,7 +1889,7 @@ body {
 
 @media screen and (min-width: 360px) {
   .arrow2 {
-    margin-top: 310px; } }
+    margin-top: 190px; } }
 
 @media screen and (min-width: 375px) {
   .arrow2 {
