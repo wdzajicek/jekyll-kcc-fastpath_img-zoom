@@ -1,4 +1,4 @@
 ---
 layout: why-fastpath
-title: Kankakee Community College Fast Path
+title: KCC Fast Path - Why Fast Path? page
 ---
