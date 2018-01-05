@@ -903,6 +903,10 @@ a.nowrap {
 .footer-text {
   text-align: left; }
 
+.error-h2 {
+  font-size: 1.4em;
+  margin-bottom: 40px; }
+
 /* don't display the checkbox */
 .full-chk {
   display: none; }
