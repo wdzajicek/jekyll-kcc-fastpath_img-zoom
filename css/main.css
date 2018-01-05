@@ -950,8 +950,8 @@ a.nowrap {
           transform: rotate(0deg);
   -webkit-transform-origin: left center;
           transform-origin: left center;
-  transition: background-color 0.3s ease-out 0s, opacity 0.3s ease-out 0.1s, -webkit-transform 0.2s ease-out 0s, width 0.2s ease-out 0s, left 0.2s ease-out 0s;
-  transition: background-color 0.3s ease-out 0s, opacity 0.3s ease-out 0.1s, transform 0.2s ease-out 0s, width 0.2s ease-out 0s, left 0.2s ease-out 0s; }
+  transition: background-color 0.3s ease-out 0s, opacity 0.3s ease-out 0.1s, -webkit-transform 0.2s ease-out 0s, width 0.2s ease-out 0s, left 0.2s ease-out 0s;
+  transition: background-color 0.3s ease-out 0s, opacity 0.3s ease-out 0.1s, transform 0.2s ease-out 0s, width 0.2s ease-out 0s, left 0.2s ease-out 0s; }
 
 @media screen and (max-width: 480px) {
   .full-span {
@@ -1005,7 +1005,7 @@ a.nowrap {
   background-color: #148caa;
   opacity: .95 !important;
   z-index: 9996;
-  transition: opacity 0.3s ease-out 0s, z-index 0s ease-out 0.3s; }
+  transition: opacity 0.3s ease-out 0s, z-index 0s ease-out 0.3s; }
 
 .full-chk:checked ~ .full-nav {
   opacity: 1;
@@ -1092,7 +1092,7 @@ a.nowrap {
 
 .top-banner {
   background-color: #eeefef;
-  background-image: url(/img/top-banner-mobile_small.png);
+  background-image: url(../img/top-banner-mobile_small.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position-x: center;
@@ -1106,30 +1106,30 @@ a.nowrap {
 
 @media screen and (min-width: 412px) and (max-width: 414px) {
   .top-banner {
-    background-image: url(/img/top-banner-mobile.png);
+    background-image: url(../img/top-banner-mobile.png);
     background-size: contain;
     height: 140px; } }
 
 @media screen and (min-width: 415px) and (max-width: 480px) {
   .top-banner {
-    background-image: url(/img/top-banner-mobile.png);
+    background-image: url(../img/top-banner-mobile.png);
     background-size: contain; } }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .top-banner {
-    background-image: url(/img/top-banner-tablet.png);
+    background-image: url(../img/top-banner-tablet.png);
     background-size: contain;
     height: 320px; } }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .top-banner {
-    background-image: url(/img/top-banner-tablet.png);
+    background-image: url(../img/top-banner-tablet.png);
     background-size: contain;
     height: 250px; } }
 
 @media screen and (min-width: 1025px) {
   .top-banner {
-    background-image: url(/img/top-banner-desktop.png);
+    background-image: url(../img/top-banner-desktop.png);
     background-size: contain;
     height: 220px; } }
 
@@ -1162,7 +1162,7 @@ a.nowrap {
     height: 110px; } }
 
 .hero {
-  background-image: url(/img/hero_mobile_small.jpg);
+  background-image: url(../img/hero_mobile_small.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: top;
@@ -1177,39 +1177,39 @@ a.nowrap {
 
 @media screen and (min-width: 375px) and (max-width: 411px) {
   .hero {
-    background-image: url(/img/hero_mobile.jpg);
+    background-image: url(../img/hero_mobile.jpg);
     background-size: cover;
     height: 280px; } }
 
 @media screen and (min-width: 412px) and (max-width: 413px) {
   .hero {
-    background-image: url(/img/hero_mobile.jpg);
+    background-image: url(../img/hero_mobile.jpg);
     background-size: cover;
     height: 310px; } }
 
 @media screen and (min-width: 414px) and (max-width: 480px) {
   .hero {
-    background-image: url(/img/hero_mobile.jpg);
+    background-image: url(../img/hero_mobile.jpg);
     background-size: contain;
     height: 310px; } }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .hero {
-    background-image: url(/img/hero_tablet.jpg);
+    background-image: url(../img/hero_tablet.jpg);
     background-size: cover;
     height: 560px;
     margin-top: -50px; } }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .hero {
-    background-image: url(/img/hero_tablet.jpg);
+    background-image: url(../img/hero_tablet.jpg);
     background-size: cover;
     height: 750px;
     margin-top: -90px; } }
 
 @media screen and (min-width: 1025px) {
   .hero {
-    background-image: url(/img/hero_desktop.jpg);
+    background-image: url(../img/hero_desktop.jpg);
     background-size: cover;
     height: 980px;
     margin-top: -90px; } }
@@ -1280,10 +1280,6 @@ a.nowrap {
 @media screen and (min-width: 2880px) {
   .wave {
     margin-top: 1900px; } }
-
-@media screen and (max-height: 1024px) and (max-width: 1366px) {
-  .wave {
-    margin-top: 1040px; } }
 
 @media screen and (max-height: 414px) and (max-width: 736px) {
   .wave {
@@ -1891,6 +1887,14 @@ body {
   .arrow2 {
     margin-top: 310px; } }
 
+@media screen and (min-width: 375px) {
+  .arrow2 {
+    margin-top: 200px; } }
+
+@media screen and (min-width: 412px) {
+  .arrow2 {
+    margin-top: 200px; } }
+
 @media screen and (min-width: 768px) {
   .arrow2 {
     margin-top: 420px;
@@ -1900,7 +1904,7 @@ body {
 
 @media screen and (min-width: 1024px) {
   .arrow2 {
-    margin-top: 460px;
+    margin-top: 380px;
     left: 45%;
     width: 100px;
     height: 100px; } }
@@ -1916,9 +1920,19 @@ body {
     width: 120px;
     height: 120px; } }
 
-@media screen and (max-height: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 2880px) {
   .arrow2 {
-    margin-top: 370px; } }
+    margin-top: 1220px;
+    left: 47%;
+    width: 160px;
+    height: 160px; } }
+
+@media screen and (min-width: 5120px) {
+  .arrow2 {
+    margin-top: 1740px;
+    left: 47%;
+    width: 260px;
+    height: 260px; } }
 
 @media screen and (max-height: 414px) and (max-width: 736px) {
   .arrow2 {
@@ -1927,12 +1941,12 @@ body {
 
 @media screen and (max-height: 412px) and (max-width: 732px) {
   .arrow2 {
-    margin-top: 210px;
-    left: 44%; } }
+    margin-top: 220px;
+    left: 46%; } }
 
 @media screen and (max-height: 375px) and (max-width: 667px) {
   .arrow2 {
-    margin-top: 40px;
+    margin-top: 210px;
     left: 46%; } }
 
 @media screen and (max-height: 360px) and (max-width: 640px) {
@@ -2083,7 +2097,7 @@ body {
 
 .top-banner2 {
   background-color: #eeefef;
-  background-image: url(/img/top-banner-mobile_small.png);
+  background-image: url(../img/top-banner-mobile_small.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position-x: center;
@@ -2097,30 +2111,30 @@ body {
 
 @media screen and (min-width: 412px) and (max-width: 414px) {
   .top-banner2 {
-    background-image: url(/img/top-banner-mobile.png);
+    background-image: url(../img/top-banner-mobile.png);
     background-size: contain;
     height: 150px; } }
 
 @media screen and (min-width: 415px) and (max-width: 480px) {
   .top-banner2 {
-    background-image: url(/img/top-banner-mobile.png);
+    background-image: url(../img/top-banner-mobile.png);
     background-size: contain; } }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .top-banner2 {
-    background-image: url(/img/top-banner-tablet.png);
+    background-image: url(../img/top-banner-tablet.png);
     background-size: contain;
     height: 320px; } }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .top-banner2 {
-    background-image: url(/img/top-banner-tablet.png);
+    background-image: url(../img/top-banner-tablet.png);
     background-size: contain;
     height: 250px; } }
 
 @media screen and (min-width: 1025px) {
   .top-banner2 {
-    background-image: url(/img/top-banner-desktop.png);
+    background-image: url(../img/top-banner-desktop.png);
     background-size: contain;
     height: 220px; } }
 
