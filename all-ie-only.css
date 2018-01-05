@@ -23,3 +23,8 @@
     height: 667px;
   }
 }
+
+.wave {
+  position: absolute;
+  display: none;
+}
