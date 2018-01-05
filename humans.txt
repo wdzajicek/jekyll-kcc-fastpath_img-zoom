@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+   	Kankakee Community College - Web Services
+    <name> -- <role>
+   	Wesley Zajicek —- Web development/coding
+	http://github.com/wdzajicek
+
+# THANKS
+    <name>
+	Kankakee Community College - Web Services:
+	Roger Ehmpke
+
+# TECHNOLOGY COLOPHON
+
+	CSS3, HTML5, Jekyll, NodeJS, GulpJS, Sass, BrowserSync, AutoPrefixer, jQuery, 		Bootstrap 3, Normalize.css, Reset.css
