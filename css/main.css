@@ -1095,7 +1095,7 @@ a.nowrap {
   background-image: url(../img/top-banner-mobile_small.png);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position-x: center;
+  background-position: center;
   height: 100px;
   z-index: 9994; }
 
@@ -2310,3 +2310,15 @@ p.home {
 @media screen and (min-width: 2880px) {
   .btn {
     font-size: 1.8em; } }
+
+.ie-only-row {
+  height: 0;
+  margin: 0;
+  padding: 0;
+  width: 0; }
+
+.ie-only-col {
+  height: 0;
+  margin: 0;
+  padding: 0;
+  width: 0; }
