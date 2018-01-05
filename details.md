@@ -1,6 +1,6 @@
 ---
 layout: details
-title: Kankakee Community College Fast Path
+title: KCC Fast Path - Details page
 ---
 # More details
 {: .details-h1}
