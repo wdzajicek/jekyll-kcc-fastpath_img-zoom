@@ -1,4 +1,6 @@
-# KCC Fast Path - ## https://wdzajicek.github.io/jekyll-kcc-fastpath/
+# KCC Fast Path
+
+## https://wdzajicek.github.io/jekyll-kcc-fastpath/
 
 Adapted from ShakyShane's jekyll-gulp-sass-browser-sync starter project. He did the initial setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync.
 
