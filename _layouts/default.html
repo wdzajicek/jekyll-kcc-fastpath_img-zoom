@@ -105,7 +105,7 @@
             } else if (window.screen.width <= 1024){
               $(window).scroll(function(){
                 var pixelstop = $(window).scrollTop();
-                  $(".big-banner ").css("opacity", 1 - pixelstop / 900);
+                  $(".big-banner ").css("opacity", 1 - pixelstop / 1000);
               });
             } else {
               $(window).scroll(function(){
