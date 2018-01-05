@@ -111,12 +111,13 @@
         <!-- Jquery to resolve menu visibility when closed. Animation of down arrows too. -->
         <script type="text/javascript">
           $(document).ready(function(){
+            //reset checkboxes on page load
+            $('input:checkbox').prop('checked', false);
+            //arrow slide down animation on page load
        	    $(".arrow3").delay("fast").slideDown(1000);
+            //disable hidden visibility of full page navigation overlay with menu button click
             $('label.full-cntr').click( function(e) {
               $('.full-nav').toggleClass("noshow");
-            });
-            $(window).scroll(function(){
-              $(".big-banner ").css("opacity", 1 - $(window).scrollTop() / 300);
             });
           });
         </script>
