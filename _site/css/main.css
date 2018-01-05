@@ -2310,15 +2310,3 @@ p.home {
 @media screen and (min-width: 2880px) {
   .btn {
     font-size: 1.8em; } }
-
-.ie-only-row {
-  height: 0;
-  margin: 0;
-  padding: 0;
-  width: 0; }
-
-.ie-only-col {
-  height: 0;
-  margin: 0;
-  padding: 0;
-  width: 0; }
