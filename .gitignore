@@ -23,8 +23,9 @@ Temporary Items
 .apdisk
 
 ### Jekyll stuffs to ignore ###
-_site/
-_site/*
+## _site/ remove pound signs to ignore. removed so static site is available. ##
+## _site/* remove pound signs to ignore. removed so static site is available. ##
+
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
