@@ -4,12 +4,13 @@
 # TEAM
    	Kankakee Community College - Web Services
     <name> -- <role>
-   	Wesley Zajicek —- Web development/coding
-	http://github.com/wdzajicek
+   	Wesley Zajicek —- Author - Web development/coding
+    Github Username: wdzajicek
+	  Github Profile: http://github.com/wdzajicek
 
 # THANKS
     <name>
-	Kankakee Community College - Web Services:
+	Kankakee Community College - Web Services
 	Roger Ehmpke
 
 # TECHNOLOGY COLOPHON
