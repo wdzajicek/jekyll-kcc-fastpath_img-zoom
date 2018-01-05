@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Kankakee Community College Fast Path
+title: KCC Fast Path
 ---
 # Earn&#160;a&#160;transfer&#160;degree in&#160;2&#160;years! <br />
 {: .bgcolor}
