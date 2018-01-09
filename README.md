@@ -2,7 +2,7 @@
 
 ### <a href="https://wdzajicek.github.io/jekyll-kcc-fastpath/" target="_blank" rel="noopener">Link to github-page for Fast Path - https://wdzajicek.github.io/jekyll-kcc-fastpath/</a>
 
-<img src="img/fastpath-example.jpg">
+<img src="assets/img/fastpath-example.jpg">
 
 Adapted from ShakyShane's jekyll-gulp-sass-browser-sync starter project. He did the initial setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync.
 
