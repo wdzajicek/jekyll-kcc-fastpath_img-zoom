@@ -1,5 +1,4 @@
 encoding: utf-8
-destination: ./_site
 sass:
   style: compressed
   sass_dir: assets/css
@@ -10,4 +9,4 @@ kramdown:
   input: GFM
   hard_wrap: false
   syntax_highlighter: rouge
-exclude: ["node_modules", "gulpfile.js", "package.json", "package-lock.json", "Gemfile", "Gemfile.lock", "adobe", "assets/scss", "README.md"]
+exclude: ["node_modules", "gulpfile.js", "package.json", "package-lock.json", "Gemfile", "Gemfile.lock", "adobe", "assets/scss", "README.md", "docs/"]
