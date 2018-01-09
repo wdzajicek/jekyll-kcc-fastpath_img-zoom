@@ -1,8 +1,12 @@
 encoding: utf-8
+sass:
+  sass_dir: assets/css
+  style: nested
+  sourcemap: true
 markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
   hard_wrap: false
   syntax_highlighter: rouge
-exclude: ["node_modules", "gulpfile.js", "package.json", "package-lock.json", "Gemfile", "Gemfile.lock"]
+exclude: ["node_modules", "gulpfile.js", "package.json", "package-lock.json", "Gemfile", "Gemfile.lock", "adobe", "assets/scss", "README.md"]
