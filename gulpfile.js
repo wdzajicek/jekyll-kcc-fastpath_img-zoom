@@ -1,4 +1,6 @@
 var gulp        = require('gulp');
+var cssmin      = require('gulp-cssmin');
+var rename      = require('gulp-rename');
 var browserSync = require('browser-sync');
 var sass        = require('gulp-sass');
 var prefix      = require('gulp-autoprefixer');
@@ -40,7 +42,7 @@ gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
  * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
  */
 gulp.task('sass', function () {
-    return gulp.src('_scss/main.scss')
+    return gulp.src('assets/scss/main.scss')
         .pipe(sass({
             style: 'compressed',
             includePaths: ['scss'],
@@ -57,8 +59,8 @@ gulp.task('sass', function () {
  * Watch html/md files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function () {
-    gulp.watch('_scss/*.scss', ['sass']);
-    gulp.watch('_scss/*/*.scss', ['sass']);
+    gulp.watch('assets/scss/*.scss', ['sass']);
+    gulp.watch('assets/scss/*/*.scss', ['sass']);
     gulp.watch(['*.md', '*.html', '_layouts/*.md', '_layouts/*.html', '_includes/*', 'img/*'], ['jekyll-rebuild']);
 });
 
@@ -66,4 +68,10 @@ gulp.task('watch', function () {
  * Default task, running just `gulp` will compile the sass,
  * compile the jekyll site, launch BrowserSync & watch files.
  */
-gulp.task('default', ['browser-sync', 'watch']);
+
+gulp.task('default', ['browser-sync', 'watch'], function () {
+    gulp.src('assets/css/main.css')
+        .pipe(cssmin())
+        .pipe(rename({suffix: '.min'}))
+        .pipe(gulp.dest('_site/assets/css/'));
+});
