@@ -1,6 +1,6 @@
 # KCC Fast Path
 
-### <a href="https://wdzajicek.github.io/jekyll-kcc-fastpath/" target="_blank" rel="noopener">Link to github-page for Fast Path - https://wdzajicek.github.io/jekyll-kcc-fastpath/</a>
+### <a href="https://kankakeecommunitycollege.github.io/jekyll-kcc-fastpath/" target="_blank" rel="noopener">Link to github-page for Fast Path - https://kankakeecommunitycollege.github.io/jekyll-kcc-fastpath/</a>
 
 <img src="assets/img/fastpath-example.jpg">
 
