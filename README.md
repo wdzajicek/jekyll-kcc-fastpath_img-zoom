@@ -16,7 +16,7 @@ To use this starter project, you'll need the following things installed on your 
 1. [Jekyll](http://jekyllrb.com/) - `$ gem install jekyll`
 2. [NodeJS](http://nodejs.org) - use the installer.
 3. [GulpJS](https://github.com/gulpjs/gulp) - `$ npm install -g gulp` (mac users may need sudo)
-4. [gulp-cssmin](https://www.npmjs.com/package/gulp-cssmin) - install node_module with '$ npm install --save-dev gulp-cssmin'
+4. [gulp-cssmin](https://www.npmjs.com/package/gulp-cssmin) - install node_module with `$ npm install --save-dev gulp-cssmin`
 
 ## Local Installation
 
