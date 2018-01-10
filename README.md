@@ -1,5 +1,7 @@
 # KCC Fast Path
 
+## Landing Page for the KCC Fast Path Program
+
 ### <a href="https://kankakeecommunitycollege.github.io/jekyll-kcc-fastpath/" target="_blank" rel="noopener">Link to github-page for Fast Path <br /> https://kankakeecommunitycollege.github.io/jekyll-kcc-fastpath/</a>
 
 <img src="assets/img/fastpath-example.jpg">
