@@ -909,13 +909,15 @@ a.nowrap {
 
 .menu-h2 {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.6em;
+  font-size: 1.8em;
   font-weight: 400;
   letter-spacing: 1px;
   color: white;
   line-height: 1.2;
-  margin-top: 5px;
-  margin-bottom: 5px; }
+  padding: 5px 0px 5px 0px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 /* don't display the checkbox */
 .full-chk {
@@ -1059,18 +1061,6 @@ a.nowrap {
 .full-nav-a, .full-nav-a:visited, .full-nav-a:active {
   text-decoration: none !important;
   color: #ffffff; }
-
-/* link text inside .full-nav-li */
-.full-nav-p {
-  margin: 10px 0px 10px 0px;
-  padding: 5px 0px 5px 0px;
-  font-family: 'Helvetica', 'Arial', sans-serif;
-  font-size: 14px;
-  text-align: center; }
-
-@media (min-width: 700px) and (min-height: 450px) {
-  .full-nav-p {
-    font-size: 26px; } }
 
 /* main  area */
 .full-main {
