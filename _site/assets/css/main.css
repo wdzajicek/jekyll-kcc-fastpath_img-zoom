@@ -907,6 +907,16 @@ a.nowrap {
   font-size: 1.4em;
   margin-bottom: 40px; }
 
+.menu-h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+  line-height: 1.2;
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
 /* don't display the checkbox */
 .full-chk {
   display: none; }
