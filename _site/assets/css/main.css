@@ -923,6 +923,10 @@ a.nowrap {
   position: absolute;
   text-indent: -9999em; }
 
+.nav-h2 {
+  position: absolute;
+  text-indent: -9999em; }
+
 /* don't display the checkbox */
 .full-chk {
   display: none; }
@@ -1598,16 +1602,6 @@ body {
 @media screen and (min-width: 480px) {
   .img-marg {
     margin-bottom: 40px; } }
-
-.img-marg:hover,
-.img-marg:focus {
-  -webkit-transform: scale(1.2, 1.2);
-  transform: scale(1.2, 1.2); }
-
-.img-marg {
-  transition: -webkit-transform .425s;
-  transition: transform .425s;
-  overflow: hidden; }
 
 .nav-social {
   float: left;
