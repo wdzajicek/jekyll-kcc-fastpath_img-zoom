@@ -65,3 +65,10 @@
 .no-scroll {
   overflow-y: hidden;
 }
+
+.btn-color {
+  background-color: $button-color;
+}
+.btn-color:hover {
+  background-color: $btn-hover;
+}
