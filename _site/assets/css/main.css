@@ -28,7 +28,7 @@ p {
   margin: 1em 0; }
 
 a {
-  color: #00a; }
+  color: #0f3b63; }
 
 a:hover {
   color: #000; }
@@ -1410,6 +1410,12 @@ body {
 .no-scroll {
   overflow-y: hidden; }
 
+.btn-color {
+  background-color: #0f3b63; }
+
+.btn-color:hover {
+  background-color: #005BAC; }
+
 .more-pos {
   margin-top: -40px;
   margin-left: -10px;
@@ -1592,6 +1598,16 @@ body {
 @media screen and (min-width: 480px) {
   .img-marg {
     margin-bottom: 40px; } }
+
+.img-marg:hover,
+.img-marg:focus {
+  -webkit-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2); }
+
+.img-marg {
+  transition: -webkit-transform .425s;
+  transition: transform .425s;
+  overflow: hidden; }
 
 .nav-social {
   float: left;
