@@ -1473,6 +1473,12 @@ body {
   .more-down {
     margin-top: 2.8em; } }
 
+a.glyph-link {
+  color: #337ab7; }
+
+a.glyph-link:hover {
+  color: #003e73; }
+
 .phone {
   margin-left: -80px;
   margin-top: 40px;
@@ -1709,6 +1715,9 @@ body {
   background-size: cover;
   text-indent: -9999px;
   overflow: hidden; }
+
+a.button:visited {
+  color: #ffffff; }
 
 .arrow {
   z-index: 46;
