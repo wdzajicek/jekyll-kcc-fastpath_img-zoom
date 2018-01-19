@@ -118,3 +118,7 @@
   text-indent: -9999px;
   overflow: hidden;
 }
+
+a.button:visited {
+  color: $btn-visited;
+}
