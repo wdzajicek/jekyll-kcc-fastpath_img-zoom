@@ -63,5 +63,19 @@
 @media screen and (min-width: 480px) {
   .img-marg {
     margin-bottom: 40px;
+    transition: -webkit-transform .425s;
+    transition: transform .425s
   }
+}
+
+.img-cont {
+  height: 262px;
+  width: 350px;
+  overflow: hidden;
+}
+
+a img.img-marg:hover {
+  -webkit-transform: scale(1.2, 1.2);
+  -ms-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
 }
