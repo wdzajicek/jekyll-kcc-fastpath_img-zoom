@@ -68,15 +68,17 @@
   }
 }
 
-.img-cont {
+.engagement-card-photo {
   height: 262px;
   width: 350px;
   overflow: hidden;
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-a img.img-marg:hover {
-  -webkit-transform: scale(1.2, 1.2);
-  -ms-transform: scale(1.2, 1.2);
-  transform: scale(1.2, 1.2);
+.engagement-card:hover .img-marg,
+.engagement-card:focus .img-marg {
+  -webkit-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
 }
