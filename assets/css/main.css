@@ -1316,13 +1316,33 @@ a.nowrap {
   .content-marg {
     margin-top: -180px; } }
 
+@media screen and (min-width: 1024px) {
+  .content-marg {
+    margin-top: -250px; } }
+
 @media screen and (min-width: 1280px) {
   .content-marg {
     margin-top: -370px; } }
 
+@media screen and (min-width: 1600px) {
+  .content-marg {
+    margin-top: -440px; } }
+
+@media screen and (min-width: 1700px) {
+  .content-marg {
+    margin-top: -460px; } }
+
+@media screen and (min-width: 1800px) {
+  .content-marg {
+    margin-top: -500px; } }
+
 @media screen and (min-width: 1920px) {
   .content-marg {
     margin-top: -560px; } }
+
+@media screen and (min-width: 2880px) {
+  .content-marg {
+    margin-top: -650px; } }
 
 @media screen and (max-height: 414px) and (max-width: 736px) {
   .content-marg {
