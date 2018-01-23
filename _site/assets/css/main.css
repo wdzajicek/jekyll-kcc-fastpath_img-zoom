@@ -1635,7 +1635,8 @@ a.glyph-link:hover {
 .img-cont {
   height: 262px;
   width: 350px;
-  overflow: hidden; }
+  overflow: hidden;
+  text-align: center; }
 
 a img.img-marg:hover {
   -webkit-transform: scale(1.2, 1.2);
