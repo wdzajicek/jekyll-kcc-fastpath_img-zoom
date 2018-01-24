@@ -2372,3 +2372,6 @@ p.home {
 @media screen and (min-width: 2880px) {
   .btn {
     font-size: 1.8em; } }
+
+.no_underline:hover {
+  text-decoration: none; }
