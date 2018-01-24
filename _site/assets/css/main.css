@@ -1626,11 +1626,13 @@ a.glyph-link:hover {
   margin-bottom: 20px;
   margin-top: 20px; }
 
+.img-marg {
+  transition: -webkit-transform .425s;
+  transition: transform .425s; }
+
 @media screen and (min-width: 480px) {
-  .img-marg {
-    margin-bottom: 40px;
-    transition: -webkit-transform .425s;
-    transition: transform .425s; } }
+  .engagement-card-photo {
+    margin-bottom: 40px; } }
 
 .engagement-card-photo {
   height: 262px;

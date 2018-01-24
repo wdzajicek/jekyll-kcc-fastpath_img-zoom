@@ -60,11 +60,14 @@
   margin-top: 20px;
 }
 
+.img-marg {
+  transition: -webkit-transform .425s;
+  transition: transform .425s;
+}
+
 @media screen and (min-width: 480px) {
-  .img-marg {
+  .engagement-card-photo {
     margin-bottom: 40px;
-    transition: -webkit-transform .425s;
-    transition: transform .425s
   }
 }
 
