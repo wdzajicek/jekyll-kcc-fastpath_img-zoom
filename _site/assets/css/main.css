@@ -1507,11 +1507,19 @@ a.glyph-link:hover {
 
 @media screen and (min-width: 768px) {
   .phone {
-    width: 20%; } }
+    width: 12%; } }
+
+@media screen and (min-width: 1024px) {
+  .phone {
+    width: 11%; } }
 
 @media screen and (min-width: 1200px) {
   .phone {
-    width: 8%; } }
+    width: 7%; } }
+
+@media screen and (min-width: 1920px) {
+  .phone {
+    width: 7%; } }
 
 @media screen and (max-height: 768px) and (max-width: 1024px) {
   .phone {
